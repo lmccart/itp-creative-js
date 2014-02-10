@@ -4,10 +4,11 @@
 
 ###ideas for "weekly" topics for syllabus
 1. INTRO
-    * basic intro to JS and JS syntax (from Processing -> JS) - variables, conditionals, loops, functions, objects, arrays
+    * basic intro to JS and JS syntax (from Processing -> JS) - variables, conditionals, loops, simple objects, functions arrays
     * intro to workflow with p5.js: sublime, python SimpleHTTPServer, JS console
     * what is p5.js behind the scenes?
     * assignment: recreate an ICM homework in p5.js
+2. OOP / "functional" stuff
 2. callbacks
 3. p5.js with DOM elements
 4. p5.js with data / APIs (callbacks here?)
