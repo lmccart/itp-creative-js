@@ -17,6 +17,7 @@
     * JQuery
     * box2d, toxiclibs?
     * html5 video / popcorn.js
+    * webrtc / video?
 6. something about connecting to hardware and stuff with node??
 5. mobile?
 7. final project presentions
