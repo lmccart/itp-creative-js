@@ -16,5 +16,5 @@
     * box2d, toxiclibs?
     * html5 video / popcorn.js
     * webrtc / video?
-6. something about connecting to hardware and stuff with node?, mobile?
+6. something about connecting to hardware and stuff with node?, mobile? debugging techniques for js
 7. final project presentions
