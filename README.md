@@ -11,9 +11,9 @@ How do the tools and platforms we work with shape the things we create? How do c
 ###Week 1
 
 * Getting started with p5, web development.
-  [Tutorial](https://github.com/lmccart/p5.js/wiki/Getting-Started)
+    * [Tutorial](https://github.com/lmccart/p5.js/wiki/Getting-Started)
 * Intro to Java > JavaScript syntax (Processing > p5).
-  [Tutorial](https://github.com/lmccart/p5.js/wiki/Processing-syntax-conversion)
+    * [Tutorial](https://github.com/lmccart/p5.js/wiki/Processing-syntax-conversion)
 
 ###Week 2
 
