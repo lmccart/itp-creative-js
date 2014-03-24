@@ -20,6 +20,7 @@ How do the tools and platforms we work with shape the things we create? How do c
 
 ###Week 2
 * Classes: classical vs. prototypal inheritance.
+    * [Mozilla's intro to OOP](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Introduction_to_Object-Oriented_JavaScript) 
 
 ###Week 3
 * Beyond the canvas, DOM manipulation.
@@ -42,4 +43,23 @@ How do the tools and platforms we work with shape the things we create? How do c
 
 
 #Resources
+
 * [p5.js on GitHub](https://github.com/lmccart/p5.js)
+
+###Learning / Intro
+* [CodeAcademy: JavaScript](http://www.codecademy.com/tracks/javascript)
+* [How to learn JavaScript properly](http://javascriptissexy.com/how-to-learn-javascript-properly/)
+* [JavaScript the right way](http://www.jstherightway.org/)
+* [Code School](https://www.codeschool.com/paths/javascript)
+* [JavaScript garden](http://bonsaiden.github.io/JavaScript-Garden/)
+
+###Reference
+* [JavaScript: The Definitive Guide](http://shop.oreilly.com/product/9780596000486.do)
+* [Eloquent JavaScript](http://eloquentjavascript.net/contents.html), David Flanagan
+* [Beginning JavaScript](http://www.amazon.com/Beginning-JavaScript-Paul-Wilton/dp/0470525932), Paul Wilton and Jeremy McPeak
+
+###Tools
+* Checking code: [JSLint](http://www.jslint.com/) / [JSHint](http://www.jshint.com)
+* Browser debugging: Chrome Developer Tools ([tutorial](https://developer.chrome.com/extensions/tut_debugging)) / Firebug ([tutorial](http://www.developerfusion.com/article/139949/debugging-javascript-with-firebug/))
+* Sharing code snippets (useful for asking questions): [gist.github.com](http://gist.github.com)
+
