@@ -1,10 +1,9 @@
 Lauren McCarthy Tuesday Section 2014
 ====================================
 
-*[laurmccarthy@gmail.com](mailto:laurmccarthy@gmail.com)
-
-*CLASS: Tuesdays, 9:30am-12:00pm, Room 445
-*OFFICE HOURS: Fridays, 12:00-3:00pm
+* [laurmccarthy@gmail.com](mailto:laurmccarthy@gmail.com)
+* CLASS: Tuesdays, 9:30am-12:00pm, Room 445
+* OFFICE HOURS: Fridays, 12:00-3:00pm
 
 
 ##Syllabus
@@ -24,10 +23,10 @@ Lauren McCarthy Tuesday Section 2014
 
 ##Class Dates (all Tuesdays)
 
-Week 1: March 25
-Week 2: April 1
-Week 3: April 8
-Week 4: April 15
-Week 5: April 22
-Week 6: April 29
-Week 7: May 6
+* Week 1: March 25
+* Week 2: April 1
+* Week 3: April 8
+* Week 4: April 15
+* Week 5: April 22
+* Week 6: April 29
+* Week 7: May 6
