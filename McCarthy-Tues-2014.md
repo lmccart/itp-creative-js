@@ -14,18 +14,17 @@ Lauren McCarthy Tuesday Section 2014
 
 ##Class notes and homework
 
-* [Week 1](https://github.com/lmccart/itp-creative-js/wiki/McCarthy-Week-1)
-
-
-##Expectations 
-
-
-##Class Dates (all Tuesdays)
-
-* Week 1: March 25
+* [Week 1: March 25](https://github.com/lmccart/itp-creative-js/wiki/McCarthy-Week-1)
 * Week 2: April 1
 * Week 3: April 8
 * Week 4: April 15
 * Week 5: April 22
 * Week 6: April 29
 * Week 7: May 6
+
+##Expectations 
+
+
+##Class Dates (all Tuesdays)
+
+
