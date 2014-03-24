@@ -12,10 +12,9 @@ Lauren McCarthy Tuesday Section 2014
 - [p5.js repo](https://github.com/lmccart/p5.js)
 
 
-##Homework
+##Class notes and homework
 
-###Week 1
-* **DUE W2: recreate an ICM homework in p5.js**
+* [Week 1](https://github.com/lmccart/itp-creative-js/wiki/McCarthy-Week-1)
 
 
 ##Expectations 
