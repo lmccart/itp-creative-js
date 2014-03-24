@@ -5,6 +5,12 @@ Creative JavaScript (Spring 2014)
 
 How do the tools and platforms we work with shape the things we create? How do creative and computational ideas transform across media, and what does it mean to create for the internet? Using [p5.js](https://github.com/lmccart/p5.js), a new Processing library for the web, students will learn the basics of the JavaScript language and explore interactive media online. In addition to canvas graphics, the course will also cover HTML5 and DOM manipulation, working with APIs, data and JSON, interactivity across a range of devices, and the integration and use of other JS libraries. Strategies for code organization and structure, sharing and documentation, and version control (GitHub) will also be discussed. This is a beginner level class, though students should have taken Introduction to Computational Media or have similar experience. This two-credit course will meet the last seven weeks of the semester.
 
+#Section Pages and Homework Links
+- Lauren McCarthy, Tuesdays, 9:30am-12:00pm,[Section Info](https://github.com/lmccart/itp-creative-js/blob/master/McCarthy-Tues-2014.md), [Section Homework](TBA)
+- Daniel Shiffman, Fridays, 12:30pm-3:00pm,[Section Info](https://github.com/lmccart/itp-creative-js/blob/master/Shiffman-Fri-2014.md), [Section Homework](TBA)
+
+#Mailing List
+* [Join ITP Creative JS Google Group](https://groups.google.com/a/nyu.edu/forum/?hl=en#!forum/itp-creative-js-group).
 
 #Syllabus
 
