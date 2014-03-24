@@ -50,10 +50,13 @@ How do the tools and platforms we work with shape the things we create? How do c
 * [CodeAcademy: JavaScript](http://www.codecademy.com/tracks/javascript)
 * [How to learn JavaScript properly](http://javascriptissexy.com/how-to-learn-javascript-properly/)
 * [JavaScript the right way](http://www.jstherightway.org/)
+* [Code School](https://www.codeschool.com/paths/javascript)
+* [JavaScript garden](http://bonsaiden.github.io/JavaScript-Garden/)
 
 ###Reference
 * [JavaScript: The Definitive Guide](http://shop.oreilly.com/product/9780596000486.do)
-* [Eloquent JavaScript](http://eloquentjavascript.net/contents.html)
+* [Eloquent JavaScript](http://eloquentjavascript.net/contents.html), David Flanagan
+* [Beginning JavaScript](http://www.amazon.com/Beginning-JavaScript-Paul-Wilton/dp/0470525932), Paul Wilton and Jeremy McPeak
 
 ###Tools
 * Checking code: [JSLint](http://www.jslint.com/) / [JSHint](http://www.jshint.com)
