@@ -25,6 +25,3 @@ Lauren McCarthy Tuesday Section 2014
 ##Expectations 
 
 
-##Class Dates (all Tuesdays)
-
-
