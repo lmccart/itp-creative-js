@@ -14,14 +14,11 @@ How do the tools and platforms we work with shape the things we create? How do c
 
 #Syllabus
 
-###Week 1
-
-* Intro to workflow with p5.js: sublime, python SimpleHTTPServer, JS console
-    * [Tutorial: getting started with p5](https://github.com/lmccart/p5.js/wiki/Getting-Started)
-* Intro to JavaScript syntax (Processing > p5).
-    * [Tutorial: Processing > p5 conversion](https://github.com/lmccart/p5.js/wiki/Processing-syntax-conversion)
-    * variables, conditionals, loops, simple objects, functions, arrays
-* Context: what is p5.js behind the scenes?
+###[Week 1](https://github.com/lmccart/itp-creative-js/wiki/Week-1)
+* Course intro / expectations
+* Intro to workflow with p5.js: editor, server, console
+* Processing > p5.js conversion
+* Intro to JavaScript: basics
 
 ###Week 2
 * Classes: classical vs. prototypal inheritance.
