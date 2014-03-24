@@ -20,6 +20,7 @@ How do the tools and platforms we work with shape the things we create? How do c
 
 ###Week 2
 * Classes: classical vs. prototypal inheritance.
+    * [Mozilla's intro to OOP](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Introduction_to_Object-Oriented_JavaScript) 
 
 ###Week 3
 * Beyond the canvas, DOM manipulation.
@@ -42,4 +43,13 @@ How do the tools and platforms we work with shape the things we create? How do c
 
 
 #Resources
+
 * [p5.js on GitHub](https://github.com/lmccart/p5.js)
+
+###Learning
+* [CodeAcademy: JavaScript](http://www.codecademy.com/tracks/javascript)
+* [How to learn JavaScript properly](http://javascriptissexy.com/how-to-learn-javascript-properly/)
+
+###Reference
+* [JavaScript: The Definitive Guide](http://shop.oreilly.com/product/9780596000486.do)
+* [Eloquent JavaScript](http://eloquentjavascript.net/contents.html)
