@@ -16,7 +16,6 @@ How do the tools and platforms we work with shape the things we create? How do c
     * [Tutorial: Processing > p5 conversion](https://github.com/lmccart/p5.js/wiki/Processing-syntax-conversion)
     * variables, conditionals, loops, simple objects, functions, arrays
 * Context: what is p5.js behind the scenes?
-* **Assignment DUE W2: recreate an ICM homework in p5.js**
 
 ###Week 2
 * Classes: classical vs. prototypal inheritance.
