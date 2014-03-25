@@ -7,7 +7,7 @@ How do the tools and platforms we work with shape the things we create? How do c
 
 #Section Pages and Homework Links
 - Lauren McCarthy, Tuesdays, 9:30am-12:00pm, [Section Info](https://github.com/lmccart/itp-creative-js/blob/master/McCarthy-Tues-2014.md)
-- Daniel Shiffman, Fridays, 12:30pm-3:00pm, [Section Info](https://github.com/lmccart/itp-creative-js/blob/master/Shiffman-Fri-2014.md), [Section Homework](TBA)
+- Daniel Shiffman, Fridays, 12:30pm-3:00pm, [Section Info](https://github.com/lmccart/itp-creative-js/blob/master/Shiffman-Fri-2014.md)
 
 #Mailing List
 * [Join ITP Creative JS Google Group](https://groups.google.com/a/nyu.edu/forum/?hl=en#!forum/itp-creative-js-group).
