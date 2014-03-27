@@ -2,7 +2,7 @@ Daniel Shiffman Tuesday Section 2013
 ====================================
 
 * [daniel.shiffman@nyu.edu](mailto:daniel.shiffman@nyu.edu)
-* CLASS: Fridays, 12:30pm-3:00pm, Meeting A/B
+* CLASS: Fridays, 12:30pm-3:00pm, Room 50
 - OFFICE HOURS: [Sign Up](https://itp.nyu.edu/inwiki/Signup/Shiffman)
 
 ##Syllabus
