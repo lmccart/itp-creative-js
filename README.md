@@ -56,6 +56,7 @@ How do the tools and platforms we work with shape the things we create? How do c
 * [Code School](https://www.codeschool.com/paths/javascript)
 * [JavaScript garden](http://bonsaiden.github.io/JavaScript-Garden/)
 * [A re-introduction to JS by Mozilla](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript)
+* [JavaScript 101 from JQuery](https://learn.jquery.com/javascript-101/)
 
 ###Reference
 * [JavaScript: The Definitive Guide](http://shop.oreilly.com/product/9780596000486.do)
