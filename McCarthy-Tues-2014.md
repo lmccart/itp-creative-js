@@ -17,7 +17,7 @@ Lauren McCarthy Tuesday Section 2014
 ##Homework
 
 * [Week 1: March 25](https://github.com/lmccart/itp-creative-js/wiki/Week-1-Homework-Lauren)
-* Week 2: April 1
+* [Week 2: April 1](https://github.com/lmccart/itp-creative-js/wiki/Week-1-Homework-Lauren)
 * Week 3: April 8
 * Week 4: April 15
 * Week 5: April 22
