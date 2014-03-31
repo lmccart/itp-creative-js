@@ -21,7 +21,7 @@ Lauren McCarthy Tuesday Section 2014
 * Week 3: April 8
 * Week 4: April 15
 * Week 5: April 22
-* Week 6: April 29
+* Week 6: Friday, May 2 9:30-12 **DATE CHANGE**
 * Week 7: May 6
 
 ##Expectations 
