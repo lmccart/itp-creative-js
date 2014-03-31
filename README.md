@@ -21,7 +21,7 @@ How do the tools and platforms we work with shape the things we create? How do c
 * Processing > p5.js conversion
 * Intro to JavaScript: basics
 
-###Week 2
+###[Week 2](https://github.com/lmccart/itp-creative-js/wiki/Week-2)
 * Classes: classical vs. prototypal inheritance.
     * [Mozilla's intro to OOP](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Introduction_to_Object-Oriented_JavaScript) 
 
