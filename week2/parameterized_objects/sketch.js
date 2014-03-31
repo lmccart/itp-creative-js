@@ -10,7 +10,7 @@ var myCar0;
 var myCar1; // Two objects!
 
 function setup() {
-  createGraphics(600,400);
+  createCanvas(600,400);
   myCar0 = new Car(50,0,100,2); // Parameters go inside the parentheses when the object is constructed.
   myCar1 = new Car(200,0,200,1);
 }

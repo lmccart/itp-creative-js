@@ -6,7 +6,7 @@
 var cars = [];
 
 function setup() {
-  createGraphics(600,400);
+  createCanvas(600,400);
 
   for (var i=0; i<10; i++) {
     cars[i] = new Car(random(255), random(width), random(height), random(10));

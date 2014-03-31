@@ -10,7 +10,7 @@ var myCar; // Declare car object as a globle variable.
 
 
 function setup() {
-  createGraphics(600,400);
+  createCanvas(600,400);
   // Initialize Car object
   myCar = new Car(); // Initialize car object in setup() by calling constructor.
 }
@@ -44,3 +44,10 @@ Car.prototype.move = function() {
     this.xpos = -50;
   }
 };
+
+Car.prototype.setXSpeed = function(newSpeed) {
+  this.xspeed = newSpeed;
+  print(this.xspeed);
+};
+
+
