@@ -9,6 +9,10 @@ function setup() {
   // Initialize Car object
   myBall = new Ball(100, 100, 100); // Initialize Ball object
   mySuperBall = new SuperBall(100, 200, 0); // Initialize SuperBall object
+
+  print(mySuperBall instanceof Ball); // true 
+  print(mySuperBall instanceof SuperBall); // true
+
 }
 
 function draw() {
