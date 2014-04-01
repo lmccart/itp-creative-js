@@ -10,8 +10,19 @@ function setup() {
   myBall = new Ball(100, 100, 100); // Initialize Ball object
   mySuperBall = new SuperBall(100, 200, 0); // Initialize SuperBall object
 
+
+  // instanceof and .constructor
+  print(myBall instanceof Ball); // true 
+  print(myBall instanceof SuperBall); // false
+
   print(mySuperBall instanceof Ball); // true 
   print(mySuperBall instanceof SuperBall); // true
+
+  print(mySuperBall.constructor == Ball); // false
+  print(mySuperBall.constructor == SuperBall); // false
+
+  print(mySuperBall.hasOwnProperty('xpos'));
+  print('gray' in mySuperBall);
 
 }
 

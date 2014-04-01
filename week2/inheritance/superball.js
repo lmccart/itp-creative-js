@@ -1,12 +1,7 @@
 function SuperBall(x, y, gray) {
   // Call the parent constructor
-  Ball.call(this);
-
-  this.xpos = x;
-  this.ypos = y;
-  this.radius = 30;
-  this.gray = gray;
-  console.log(this)
+  Ball.call(this, x, y, gray);
+  console.log(this);
 }
 
 SuperBall.prototype = new Ball();
