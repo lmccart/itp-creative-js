@@ -3,7 +3,7 @@ Lauren McCarthy Tuesday Section 2014
 
 * [laurmccarthy@gmail.com](mailto:laurmccarthy@gmail.com)
 * CLASS: Tuesdays, 9:30am-12:00pm, Room 445
-* OFFICE HOURS: Fridays, 12:00-3:00pm, Room 455
+* OFFICE HOURS: Fridays, 12:00-3:00pm, Room 455 [sign up here](https://www.google.com/calendar/selfsched?sstoken=UUZDZnctNVhINm91fGRlZmF1bHR8MjVjZDI3ODE2NTBmMWIxZmQ1MDRhZDljYWRmN2FjYjk)
 
 
 ##Syllabus
