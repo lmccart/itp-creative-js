@@ -14,7 +14,7 @@ function setup() {
     }
   };
 
-  bubble2 = bubble1;//Object.create(bubble1);
+  bubble2 = Object.create(bubble1);
   bubble2.x = 100;
   bubble2.y = height;
 

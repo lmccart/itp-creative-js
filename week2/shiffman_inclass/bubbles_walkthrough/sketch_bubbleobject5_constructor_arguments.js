@@ -5,10 +5,10 @@ function Bubble(x_) {
    this.x = x_;
    this.y = height;
    this.w = 100;
-   /*this.move = function() {
+   this.move = function() {
        this.x = this.x + random(-1,1);
        this.y = this.y - 1;
-   };*/
+   };
 }
 
 function setup() {

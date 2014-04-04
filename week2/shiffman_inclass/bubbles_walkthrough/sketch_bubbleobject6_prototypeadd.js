@@ -7,12 +7,6 @@ var Bubble = function (x_) {
    this.w = 100;
 }
 
-
-/*Bubble.move = function() {
-    this.x = this.x + random(-1,1);
-    this.y = this.y - 1;
-};*/
-
 Bubble.prototype.move = function() {
     this.x = this.x + random(-1,1);
     this.y = this.y - 1;
