@@ -61,7 +61,7 @@ How do the tools and platforms we work with shape the things we create? How do c
 
 ###Reference
 * [JavaScript: The Definitive Guide](http://shop.oreilly.com/product/9780596000486.do)
-* [Eloquent JavaScript](http://eloquentjavascript.net/contents.html), David Flanagan
+* [Eloquent JavaScript](http://eloquentjavascript.net/contents.html), Marijn Haverbeke
 * [Beginning JavaScript](http://www.amazon.com/Beginning-JavaScript-Paul-Wilton/dp/0470525932), Paul Wilton and Jeremy McPeak
 
 ###Tools
