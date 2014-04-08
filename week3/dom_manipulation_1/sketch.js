@@ -15,13 +15,14 @@ function setup() {
   canvas.position(50, 100);
   canvas.class("lemon");
 
+  noStroke();
+
 }
 
 
 function draw() {
 
-  // These commands are applied to whichever element was most recently created.
-  background(220, 180, 200);
+  background(250, 120, 200);
   ellipse(width/2, height/2, 100, 100);
   ellipse(width/4, height/2, 50, 50);
 

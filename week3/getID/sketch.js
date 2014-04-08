@@ -25,11 +25,11 @@ function setup() {
 function keyPressed() {
   var found;
   if (key == "A") {
-    found = getID("apple");
+    found = getId("apple");
   } else if (key == "B") {
-    found = getID("banana");
+    found = getId("banana");
   } else if (key == "P") {
-    found = getID("pear");
+    found = getId("pear");
   }
   if (found) {
     found.hide();

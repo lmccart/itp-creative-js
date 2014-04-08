@@ -1,31 +1,23 @@
-// Creating other HTML elements, adding style.
-
 
 function setup() {
 
-  var text0 = createHTML("red");
-  var text1 = createHTML("blue");
-  var text2 = createHTML("green");
-
-  text0.position(50, 50);
-  text0.style("color:red; font-size:50px");
-  text0.class("apple");
-
-  text1.position(50, 150);
-  text1.style("color:blue; font-size:50px");
-  text1.class("apple");
-
-  text2.position(50, 250);
-  text2.style("color:green; font-size:50px");
-  text2.class("pear");
+  var canvas = createCanvas(600, 400);
+  canvas.position(50, 50);
+  noStroke();
 
 };
 
+function draw() {
 
-function mousePressed() {
-  var apples = getClass("apple");
-  for (var i=0; i<apples.length; i++) {
-    apples[i].hide();
-  }
+  background(250, 120, 200);
+
+  fill(255);
+  ellipse(width/2, height/2, 100, 100);
+  ellipse(width/4, height/2, 50, 50);
+
+  fill(50, 100, 200);
+  ellipse(mouseX, mouseY, 25, 25);
+
+  print("mouseX: "+mouseX+"mouseY: "+mouseY+" winMouseX: "+winMouseX+" winMouseY: "+winMouseY);
+
 }
-

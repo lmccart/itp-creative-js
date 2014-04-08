@@ -12,12 +12,13 @@ function setup() {
   canvas.position(150, 150);
   canvas.class("lemon");
 
+  noStroke();
 };
 
 
 function draw() {
 
-  background(220, 180, 200);
+  background(250, 120, 200);
   ellipse(width/2, height/2, 100, 100);
   ellipse(width/4, height/2, 50, 50);
 

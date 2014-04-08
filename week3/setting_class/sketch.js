@@ -27,7 +27,7 @@ function draw() {
 
 // On key press, hide all elements with class donkey.
 function keyPressed() {
-  var donkeys = find('donkey');
+  var donkeys = getClass('donkey');
   for (var i=0; i<donkeys.length; i++) {
     donkeys[i].hide();
   }
