@@ -25,8 +25,8 @@ How do the tools and platforms we work with shape the things we create? How do c
 * "Classes" and prototypes
 * Inheritance
 
-###Week 3
-* Beyond the canvas, DOM manipulation.
+###[Week 3](https://github.com/lmccart/itp-creative-js/wiki/Week-3)
+* Beyond the canvas: HTML, CSS, DOM manipulation.
 
 ###Week 4
 * p5.js with data / APIs (callbacks)
