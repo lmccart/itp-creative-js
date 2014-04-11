@@ -28,14 +28,14 @@ function setup() {
 function resizePorpoise() {
   // We could draw to canvas here if we want
   //background(255,0,0);
-
   // Resize image
   porp.size(300+ random(-10,10),200+random(-10,10));
 }
 
 function draw() {
   // The canvas will be transparent
-  // background(0);
+  //background(0,0,0,0);
+  clear();
     
   // Move the circle
   fill(0,0,255);
