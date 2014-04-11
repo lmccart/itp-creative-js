@@ -11,7 +11,6 @@ function setup() {
   // Grab the text field
   var input = document.getElementById("name");
   input.value = "Type something here.";
-
   
   // A link that when clicked applies the generate() function
   var go = createHTML("<a href=\"#\">Scramble It!</a>");
