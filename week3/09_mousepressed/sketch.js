@@ -1,5 +1,4 @@
-// Using HTML specific mouse listeners, mouseOver and mouseOut.
-
+// Using HTML element specific mouse listeners, mousePressed.
 
 // We define the variables outside of setup so we can access them from anywhere in the sketch.
 var img;
@@ -7,19 +6,18 @@ var canvas;
 
 function setup() {
 
+  createHTML("When you click the image it disappears.  Press any key and it reappears.")
+
   canvas = createCanvas(400, 400);
   img = createHTMLImage("http://th07.deviantart.net/fs70/PRE/i/2011/260/3/5/dash_hooray_by_rainbowcrab-d49xk0d.png");
 
-  // Here we call methods of each element to set the position and id.
-  // Use view-source to look at the HTML generated from this code when you load the sketch in your browser.
   img.position(190, 50);
   img.size(200, AUTO);
+  // Attach listeners for mouse events related to img.
+  img.mousePressed(uniHide);
 
   canvas.position(300, 50);
-  // Attach listeners for mouse events related to canvas
-  canvas.mouseOver(uniHide);
-  canvas.mouseOut(uniShow);
-};
+}
 
 
 function draw() {
@@ -33,7 +31,7 @@ function draw() {
     line(i, 0, i, height);
   }
 
-};
+}
 
 // Create functions for hiding and showing uni image. These will be hooked into mouse events related to canvas above.
 function uniHide() {
@@ -44,3 +42,7 @@ function uniShow() {
   img.show();
 }
 
+// Define keyPressed behavior. This one doesn't need to be hooked in, it's automatically called on key press.
+function keyPressed() {
+  uniShow();
+}

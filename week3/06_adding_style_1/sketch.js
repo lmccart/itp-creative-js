@@ -8,11 +8,13 @@ function setup() {
 
   text.position(50, 50);
   text.id("apple");
-  text.style("font-family: monospace; background-color: #FF0000; color: #FFFFFF; font-size: 18pt; padding: 10px;");
+  // Here we are no longer passing in style information directly
+  // but rather via the id #apple are pulling it from style.css
+
+
   canvas.position(150, 150);
   canvas.class("lemon");
-
-  noStroke();
+  
 };
 
 

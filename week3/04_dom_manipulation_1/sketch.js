@@ -12,10 +12,9 @@ function setup() {
   // Use the inspector to look at the HTML generated from this code when you load the sketch in your browser.
   text.position(50, 50);
   text.id("apple");
+
   canvas.position(50, 100);
   canvas.class("lemon");
-
-  noStroke();
 
 }
 

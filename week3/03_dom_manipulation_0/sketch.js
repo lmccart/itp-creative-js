@@ -15,8 +15,6 @@ function setup() {
   text.position(50, 50);
   canvas.position(300, 50);
 
-  noStroke();
-
 }
 
 
