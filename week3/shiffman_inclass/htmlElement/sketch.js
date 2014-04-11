@@ -1,5 +1,4 @@
 
-
 // Three elements
 var hello;
 var porp;
@@ -34,7 +33,6 @@ function resizePorpoise() {
 
 function draw() {
   // The canvas will be transparent
-  //background(0,0,0,0);
   clear();
     
   // Move the circle
