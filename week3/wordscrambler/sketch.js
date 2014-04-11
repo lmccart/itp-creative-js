@@ -10,7 +10,7 @@ function setup() {
   go.class('clickable');
   go.mousePressed(generate);
   
-  scrambled = createHTML("test");
+  scrambled = createHTML("");
   scrambled.position(10,150);
 }
 
