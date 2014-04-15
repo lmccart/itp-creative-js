@@ -1,0 +1,14 @@
+[{
+	"name": "John",
+	"lastName": "Smith",
+	"age": 59,
+	"eyeColor": "black",
+	"favFoods": ["apple", "cupcake", "coffee"]
+},
+{
+	"name": "Bob",
+	"lastName": "Smith",
+	"age": 30,
+	"eyeColor": "black",
+	"favFoods": ["apple", "cupcake", "coffee"]
+}]

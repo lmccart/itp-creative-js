@@ -8,13 +8,13 @@ function preload() {
 
 
 function setup() {
-  createCanvas(600, 400);
+  createCanvas(1200, 400);
   noLoop();
 }
 
 function draw() {
-	console.log(data);
-  // for (var i=0; i<lines.length; i++) {
-  // 	text(lines[i], 5, 10*i);
-  // }
+	var docs = data.response.docs;
+	for (var i=0; i<docs.length; i++) {
+		text(docs[i].snippet, 100, 100*i);
+	}
 }

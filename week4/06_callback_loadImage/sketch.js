@@ -3,6 +3,7 @@ function setup() {
   noLoop();
 
   loadImage('large.jpg', drawImage);
+  loadImage('small.jpg', drawImage);
 }
 
 function draw() {
