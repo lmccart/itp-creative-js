@@ -18,8 +18,8 @@ Lauren McCarthy Tuesday Section 2014
 
 * [Week 1: March 25](https://github.com/lmccart/itp-creative-js/wiki/Week-1-Homework-Lauren)
 * [Week 2: April 1](https://github.com/lmccart/itp-creative-js/wiki/Week-2-Homework-Lauren)
-* Week 3: April 8
-* Week 4: April 15
+* [Week 3: April 8](https://github.com/lmccart/itp-creative-js/wiki/Week-3-Homework-Lauren)
+* [Week 4: April 15](https://github.com/lmccart/itp-creative-js/wiki/Final-Project-Proposal-Lauren)
 * Week 5: April 22
 * Week 6: Friday, May 2 9:30-12 **DATE CHANGE**
 * Week 7: May 6
