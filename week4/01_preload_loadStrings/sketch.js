@@ -14,7 +14,7 @@ function setup() {
 
 function draw() {
   for (var i=0; i<lines.length; i++) {
-  	text(lines[i], 5, 20*i+20);
+    text(lines[i], 5, 20*i+20);
   }
 }
 

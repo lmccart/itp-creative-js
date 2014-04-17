@@ -3,6 +3,7 @@ var foo = {
 	bar: "new property",
 	baz: 3
 };
+
 var JSONfoo = JSON.stringify(foo);
 var backToFoo;
 
