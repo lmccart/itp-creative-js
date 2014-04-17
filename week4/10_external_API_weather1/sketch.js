@@ -12,10 +12,10 @@ function draw() {
 
 function drawData(data) {
 
-	print(data.list);
-	for (var i=0; i<data.list.length; i++) {
-		text("day "+i, 100+50*i, 100);
-		ellipse(100+50*i, 100, data.list[i].clouds, data.list[i].clouds);
-		text("day "+i, 100+50*i, 100);
-	}	
+  print(data.list);
+  for (var i=0; i<data.list.length; i++) {
+    text("day "+i, 100+50*i, 100);
+    ellipse(100+50*i, 100, data.list[i].clouds, data.list[i].clouds);
+    text("day "+i, 100+50*i, 100);
+  } 
 }
