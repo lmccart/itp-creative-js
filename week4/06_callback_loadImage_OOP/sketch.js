@@ -7,8 +7,8 @@ var b;
 function setup() {
   createCanvas(1300, 600);
   //noLoop();
-  a = new ImageThing(200,200,'large.jpg');
-  //b = new ImageThing(100,100,'small.jpg');
+  a = new ImageThing(0,0,'large.jpg');
+  b = new ImageThing(100,100,'small.jpg');
 }
 
 function draw() {
@@ -16,16 +16,20 @@ function draw() {
   a.update();
   a.display();
 
-  //b.update();
-  //b.draw();
+  b.update();
+  b.display();
 }
 
 function ImageThing(x,y,s) {
   this.x = x;
   this.y = y;
   this.img = null;
-  loadImage(s,this.loaded);
-  println(this);
+  
+  var self = this;
+  var loaded = function(incoming) {
+    self.img = incoming;
+  };
+  loadImage(s, loaded);
 }
 
 ImageThing.prototype.update = function() {
@@ -40,9 +44,4 @@ ImageThing.prototype.display = function() {
   } else {
     image(this.img,this.x,this.y);
   }
-};
-
-ImageThing.prototype.loaded = function(incoming) {
-  println("Context is the window object! " + this);
-  image(incoming,0,0);
 };
