@@ -10,7 +10,6 @@ function makeURL(year) {
   var api = 'http://api.nytimes.com/svc/search/v2/articlesearch.jsonp?callback=svc_search_v2_articlesearch&';
   var query = 'q='+term+'&facet_field=source&begin_date='+year+'0101&end_date='+year+'1231&facet_filter=true';
   var url = api+query+apikey;
-  println(url);
   return url;
 }
 
