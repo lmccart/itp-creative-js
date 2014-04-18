@@ -25,7 +25,7 @@ function setup() {
   // We will count through the array each time this function is called
   var count = 0;
   var grab = function() {
-    years[count].loadData('computer');
+    years[count].loadData();
     count++;
   };
 
