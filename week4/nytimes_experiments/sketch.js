@@ -1,6 +1,6 @@
 // http://developer.nytimes.com
 
-var term = 'happy';
+var term = 'terrorist';
 
 var years = [];
 
@@ -14,21 +14,31 @@ function makeURL(year) {
 }
 
 function setup() {
-  //createCanvas(1200, 400);
-
-  /*var y2012 = createHTML("<a href=\'#\'>2013</a>");
-  y2012.mousePressed(function() { grabTotal(2012); });
-  y2012.position(10,420);
-
-  var y2013 = createHTML("<a href=\'#\'>2012</a>");
-  y2013.mousePressed(function() { grabTotal(2013); });
-  y2013.position(100,420);*/
-
-  var i ;
-  for (var year = 1950; year < 2014; year++) {
-     years.push(new Year(year));
+  createCanvas(800, 400);
+  for (var year = 2000; year < 2014; year++) {
+    years.push(new Year(year));
+     /*setTimeout(
+      function() {
+        years.push(new Year(year));
+      },
+      1000);*/
   }
-  noLoop();
+}
+
+
+function draw() {
+  background(51);
+  var w = width/years.length;
+  for (var i = 0; i < years.length; i++) {
+    fill(255);
+    stroke(0);
+    rect(i*w,0,w,years[i].total/50);
+    noFill();
+    stroke(255);
+    textAlign(CENTER);
+    text(years[i].year,i*w+w/2,height/2);
+  }
+
 }
 
 function Year(y) {
