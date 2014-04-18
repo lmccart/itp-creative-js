@@ -3,7 +3,12 @@ function setup() {
   noLoop();
 
   loadImage('large.jpg', drawImage);
-  loadImage('small.jpg', drawImage);
+  setTimeout(smaller,500);
+}
+
+function smaller() {
+	loadImage('small.jpg', drawImage);
+
 }
 
 function draw() {

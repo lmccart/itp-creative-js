@@ -11,19 +11,29 @@
 
 var largeImage;
 
+
+
 function preload() {
-  largeImage = loadImage('large.jpg'); // preloading the image guarantees it will be ready by setup()
+  largeImage = loadImage('large.jpg');   // loading the image here is too slow
+  println("PRELOAD!");
 }
 
 function setup() {
   createCanvas(1300, 600);
-  // largeImage = loadImage('large.jpg');   // loading the image here is too slow
   image(largeImage, 0, 0);
+  println("SETUP!");
 }
 
 function draw() {
-  // do nothing
+
 }
+
+window.onload = function() {
+	println("DOM LOADED!");
+}
+
+console.log("WINDOW NONSENSE");
+
 
 
 
