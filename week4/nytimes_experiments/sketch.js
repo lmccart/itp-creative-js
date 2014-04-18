@@ -18,11 +18,16 @@ function setup() {
   createCanvas(800, 400);
   for (var year = 2000; year < 2014; year++) {
     years.push(new Year(year));
-     /*setTimeout(
+  }
+  var temp = 0;
+  for (var i = 0; i < years.length; i++) {
+    setTimeout(
       function() {
-        years.push(new Year(year));
+        years[temp].loadData();
+        temp++;
       },
-      1000);*/
+      i*500
+    );
   }
 }
 
@@ -45,10 +50,12 @@ function draw() {
 function Year(y) {
   this.year = y;
   this.total = 0;
+}
+
+Year.prototype.loadData = function() {
   var self = this;
   var loaded = function(data) {
     self.total = data.response.facets.source.terms[0].count;
-    println(self.year,self.total);
   };
   loadJSON(makeURL(this.year), loaded);
-}
+};
