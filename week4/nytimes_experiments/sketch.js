@@ -18,15 +18,15 @@ function setup() {
   for (var year = 2000; year < 2014; year++) {
     years.push(new Year(year));
   }
+
   var temp = 0;
+  var grab = function() {
+    years[temp].loadData();
+    temp++;
+  };
+  
   for (var i = 0; i < years.length; i++) {
-    setTimeout(
-      function() {
-        years[temp].loadData();
-        temp++;
-      },
-      i*500
-    );
+    setTimeout(grab,i*500);
   }
 }
 
