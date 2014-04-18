@@ -6,24 +6,21 @@ function setup() {
 
 
   var nyc = createHTML("<a href=\'#\'>New York</a>");
-  nyc.mousePressed(newyork);
+  nyc.city = "New%20York";
+  nyc.mousePressed(getJSON.bind(nyc));
   nyc.position(10,420);
 
   var lond = createHTML("<a href=\'#\'>London</a>");
-  lond.mousePressed(london);
+  lond.city = "London";
+  lond.mousePressed(getJSON.bind(lond));
   lond.position(100,420);
-
 }
 
 function draw() {
 }
 
-function newyork() {
-  loadJSON("http://api.openweathermap.org/data/2.5/forecast/daily?q=New%20York&mode=json&units=imperial&cnt=14", drawData);
-}
-
-function london() {
-  loadJSON("http://api.openweathermap.org/data/2.5/forecast/daily?q=London&mode=json&units=imperial&cnt=14", drawData);
+function getJSON() {
+  loadJSON("http://api.openweathermap.org/data/2.5/forecast/daily?q="+this.city+"&mode=json&units=imperial&cnt=14", drawData);
 }
 
 function clearIt() {
@@ -37,7 +34,7 @@ function clearIt() {
 
 function drawData(data) {
   clearIt();
-  
+
   background(51);
 
 
@@ -47,10 +44,10 @@ function drawData(data) {
   city.class("temp");
 
   var w = width/data.list.length;
-	//print(data);
+  //print(data);
   stroke(255);
   beginShape();
-	for (var i=0; i<data.list.length; i++) {
+  for (var i=0; i<data.list.length; i++) {
     var temp = data.list[i].temp.day;
     var y = map(temp,0,100,height,0);
     var x = w/2+i*w;
@@ -60,6 +57,6 @@ function drawData(data) {
     day.position(x,y);
     day.class("temp");
 
-	}
+  }
   endShape();
 }

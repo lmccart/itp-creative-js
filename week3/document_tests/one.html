@@ -1,0 +1,59 @@
+<head>
+  <title>Hello HTML!</title>
+  <style>
+    p {
+    	font-size: 12pt;
+    }
+    #two, #one, #three {
+    	color: #FF0000;
+    }
+
+    .apple {
+       font-size: 24pt;
+    }
+  </style>
+
+  <script>
+
+  window.onload = function() {
+    console.log("helloa");
+    var elt = document.createElement("p");
+    elt.innerHTML = "test";
+    console.log(elt);
+    document.body.appendChild(elt);
+    console.log("hellob");
+
+   var list = document.getElementById("list");
+   var item = document.createElement("li");
+   item.innerHTML = "hello";
+   item.className = "apple";
+   item.id = "three";
+
+   item.addEventListener('click',function() {
+      list.removeChild(this);
+   });
+
+   list.appendChild(item);
+
+   //list.removeChild(item);
+
+   console.log(document);
+
+
+  };
+
+
+  </script>
+
+</head>
+
+<body>
+  <p class="apple">This is a paragraph</p>
+  <p class="apple">This is a paragraph</p>
+  <p class="pear">This is a paragraph</p>
+
+  <ol id = "list">
+    <li id = "one">This is one</li>
+    <li id = "two">This is two</li>
+  </ol>
+</body>
