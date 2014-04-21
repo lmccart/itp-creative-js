@@ -1,4 +1,5 @@
-
+// http://popcornjs.org/
+// http://popcornjs.org/popcorn-docs/
 
 var mySketch = function(sketch) {
 
