@@ -1,4 +1,5 @@
-
+// https://github.com/auduno/headtrackr
+// http://auduno.github.io/headtrackr/documentation/reference.html
 
 var mySketch = function(sketch) {
 
@@ -24,7 +25,7 @@ var mySketch = function(sketch) {
 
     document.addEventListener('facetrackingEvent', 
       function (event) {
-        drawFace(event.x, event.y, event.height, event.width);
+        drawFace(event.x, event.y, event.width, event.height);
       }
     );
   };
