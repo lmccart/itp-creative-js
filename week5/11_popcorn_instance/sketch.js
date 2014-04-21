@@ -1,12 +1,18 @@
+
+
 var mySketch = function(sketch) {
 
-  var mySound = new buzz.sound('rhodes_loop.wav');
+  var pop;
   var radius = 50;
 
   sketch.setup = function() {
     sketch.createCanvas(300, 300);
     sketch.noStroke();
     sketch.fill(0);
+
+    // Create a popcorn instance by calling Popcorn("#id-of-my-video")
+    pop = Popcorn("#vid");
+    pop.loop(true);
   };
 
   sketch.draw = function() {
@@ -16,15 +22,14 @@ var mySketch = function(sketch) {
 
   sketch.mousePressed = function() {
     if (sketch.dist(sketch.mouseX, sketch.mouseY, sketch.width/2, sketch.height/2) <= radius) {
-      mySound.play();
-      mySound.loop();
+      pop.play();
     }
   };
 
   sketch.mouseReleased = function() {
-    mySound.stop();
+    pop.pause();
   };
 };
 
 
-var myp5 = new p5(mySketch);
+var myp5 = new p5(mySketch, "canvas");
