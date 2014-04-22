@@ -23,20 +23,16 @@ var mySketch = function(sketch) {
     htracker.init(videoInput, canvasInput);
     htracker.start();
 
-    document.addEventListener('facetrackingEvent', 
-      function (event) {
-        drawFace(event.x, event.y, event.width, event.height);
-      }
-    );
+    document.addEventListener('facetrackingEvent', drawFace);
   };
 
   sketch.draw = function() {
     sketch.background(255, 0, 200);
   };
 
-  function drawFace(x, y, w, h) {
+  function drawFace(event) {
     sketch.background(255, 0, 200);
-    sketch.ellipse(x, y, w, h);
+    sketch.ellipse(event.x, event.y, event.width, event.height);
   }
 };
 
