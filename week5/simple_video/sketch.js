@@ -10,7 +10,9 @@ function setup() {
   video = createHTML('<video id=\'vid\'><source src=\'fingers.mov\'></video>');
   video = document.getElementById('vid');
   video.play();
-  // We could display the video as an element itself but here we will draw into a canvas instead
+  // This will loop the video
+  video.setAttribute('loop', true);
+    // We could display the video as an element itself but here we will draw into a canvas instead
   video.style.display = 'none';
 
   // Other types of properties you can define
@@ -19,7 +21,6 @@ function setup() {
   video.style.top = "240px";
   video.setAttribute('width', 320);
   video.setAttribute('height', 240);
-  video.setAttribute('loop', true);
   video.setAttribute('controls',true);*/
 
   var canvas = createCanvas(640, 360);
