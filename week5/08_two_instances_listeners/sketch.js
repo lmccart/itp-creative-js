@@ -1,29 +1,32 @@
 var s0 = function( sketch ) {
 
-  var gray = 0;
-  var h = 10; 
+  var x = 0;
+  var y = 0; 
 
   sketch.setup = function() {
     var cnv = sketch.createCanvas(400, 400);
-    cnv.mousePressed(increaseH);
+    cnv.mousePressed(moveY);
     sketch.rectMode(sketch.CENTER);
   };
 
   sketch.draw = function() {
-    sketch.background(gray);
-    sketch.rect(sketch.width/2, sketch.height/2, h, h);
+    sketch.background(100,0,255);
+    sketch.fill(0);
+    sketch.rect(x, y, 50, 50);
   };
 
   sketch.mousePressed = function() {
-    gray += 10;
-  };
-
-  sketch.mouseMoved = function() {
+    x += 10;
     sketch.print("sketch0 x:"+sketch.mouseX+" y:"+sketch.mouseY);
   };
 
-  function increaseH() {
-    h += 5;
+  sketch.mouseMoved = function() {
+    //sketch.print("sketch0 x:"+sketch.mouseX+" y:"+sketch.mouseY);
+  };
+
+  function moveY() {
+    y += 10;
+    sketch.print("sketch0 x:"+sketch.mouseX+" y:"+sketch.mouseY);
   }
 };
 
@@ -35,7 +38,7 @@ var myp5_0 = new p5(s0, 'canvas0');
 
 var s1 = function( sketch ) {
 
-  var gray = 0; 
+  var y = 0; 
 
   sketch.setup = function() {
     sketch.createCanvas(400, 400);
@@ -43,31 +46,31 @@ var s1 = function( sketch ) {
 
   sketch.draw = function() {
     sketch.background(255, 0, 100);
-    sketch.fill(gray);
-    sketch.rect(sketch.width/2, sketch.height/2, 50, 50);
+    sketch.fill(0);
+    sketch.rect(sketch.width/2, y, 50, 50);
   };
 
   sketch.mousePressed = function() {
-    gray += 10;
-  };
-
-  sketch.mouseMoved = function() {
+    y += 10;
     console.log("sketch1 x:"+sketch.mouseX+" y:"+sketch.mouseY);
   };
 
+  sketch.mouseMoved = function() {
+    //console.log("sketch1 x:"+sketch.mouseX+" y:"+sketch.mouseY);
+  };
+
   sketch.mouseReleased = function() {
-    console.log("mouseReleased");
+    console.log("mouseReleased 1");
   };
 
   sketch.keyPressed = function() {
-    console.log("keyPressed");
+    console.log("keyPressed 1");
   };
 
   sketch.mouseDragged = function() {
-    console.log("mouseDragged");
+    console.log("mouseDragged 1");
   };
 };
-
 
 var myp5_1 = new p5(s1, 'canvas1');
 
