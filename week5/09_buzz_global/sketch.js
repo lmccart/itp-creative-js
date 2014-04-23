@@ -6,28 +6,45 @@
 // http://buzz.jaysalvat.com/documentation/sound/
 
 // Initializing a variable using the third-party library buzz object
-var mySound = new buzz.sound('rhodes_loop.wav');
+var music = new buzz.sound('rhodes_loop.wav');
+var bell = new buzz.sound('dingdong.wav');
 var radius = 50;
 
 function setup() {
   createCanvas(300, 300);
-  noStroke();
-  fill(0);
+
+  music.play(); // Start playing the sound
+  //music.loop(); // Loop the sound once it's playing
 }
 
 function draw() {
-  background(255, 0, 200);
+  if (music.isPaused()) {
+    background(255, 0, 200);
+  } else {
+    background(0,255,200);
+  }
+  fill(0);
   ellipse(width/2, height/2, 2*radius, 2*radius);
+  
+  // Looping isn't working so adding this
+  if (music.isEnded()) {
+    music.load();
+    music.play();
+  }
 }
 
 function mousePressed() {
   if (dist(mouseX, mouseY, width/2, height/2) <= radius) {
-    mySound.play(); // Start playing the sound
-    mySound.loop(); // Loop the sound once it's playing
+    // Sound seems to want to be reloaded
+    bell.load();
+    bell.play();
   }
 }
 
-function mouseReleased() {
-  mySound.stop(); // Stop the sound
+function keyPressed() {
+  if (key === ' ') {
+    music.togglePlay();
+  }
+  //mySound.stop(); // Stop the sound
 }
 
