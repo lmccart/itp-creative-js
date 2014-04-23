@@ -31,7 +31,7 @@ How do the tools and platforms we work with shape the things we create? How do c
 ###[Week 4](https://github.com/lmccart/itp-creative-js/wiki/Week-4)
 * p5.js with data / APIs (callbacks)
 
-###Week 5
+###[Week 5](https://github.com/lmccart/itp-creative-js/wiki/Week-5)
 * Instantiating p5, namespacing.
 * Encapsulation, closures and scope.
 * Integrating other JS libraries / frameworks.
