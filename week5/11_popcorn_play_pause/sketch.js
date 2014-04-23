@@ -13,7 +13,7 @@ var mySketch = function(sketch) {
 
     // Create a popcorn instance by calling Popcorn("#id-of-my-video")
     pop = Popcorn("#vid");
-    pop.loop(true);
+    pop.loop(true);  // Lopp not working, see: http://stackoverflow.com/questions/8088364/html5-video-will-not-loop
   };
 
   sketch.draw = function() {
