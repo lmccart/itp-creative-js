@@ -13,7 +13,7 @@ var s = function( sketch ) {
     sketch.rect(x, sketch.height/2, 50, 50);
 
     x = x + 5;
-    if (x > width) {
+    if (x > sketch.width) {
       x = 0;
     }
   }
@@ -25,4 +25,6 @@ var s = function( sketch ) {
 };
 
 var myp5_0 = new p5(s, 'canvas0');
+
+
 var myp5_1 = new p5(s, 'canvas1');
