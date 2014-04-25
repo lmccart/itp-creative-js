@@ -1,36 +1,33 @@
 // http://popcornjs.org/
 // http://popcornjs.org/popcorn-docs/
 
-var mySketch = function(sketch) {
+var pop;
+var radius = 50;
 
-  var pop;
-  var radius = 50;
+function setup() {
+  createCanvas(320, 240);
+  noStroke();
+  fill(0);
 
-  sketch.setup = function() {
-    sketch.createCanvas(300, 300);
-    sketch.noStroke();
-    sketch.fill(0);
+  // Create a popcorn instance by calling Popcorn("#id-of-my-video")
+  pop = Popcorn("#vid");
+  pop.loop(true);  // Lopp not working, see: http://stackoverflow.com/questions/8088364/html5-video-will-not-loop
 
-    // Create a popcorn instance by calling Popcorn("#id-of-my-video")
-    pop = Popcorn("#vid");
-    pop.loop(true);  // Lopp not working, see: http://stackoverflow.com/questions/8088364/html5-video-will-not-loop
-  };
+  createHTML("Hold mouse down on circle to play video.");
 
-  sketch.draw = function() {
-    sketch.background(255, 0, 200);
-    sketch.ellipse(sketch.width/2, sketch.height/2, 2*radius, 2*radius);
-  };
-
-  sketch.mousePressed = function() {
-    if (sketch.dist(sketch.mouseX, sketch.mouseY, sketch.width/2, sketch.height/2) <= radius) {
-      pop.play();
-    }
-  };
-
-  sketch.mouseReleased = function() {
-    pop.pause();
-  };
 };
 
+function draw() {
+  background(255, 0, 200);
+  ellipse(width/2, height/2, 2*radius, 2*radius);
+};
 
-var myp5 = new p5(mySketch, "canvas");
+function mousePressed() {
+  if (dist(mouseX, mouseY, width/2, height/2) <= radius) {
+    pop.play();
+  }
+};
+
+function mouseReleased() {
+  pop.pause();
+};

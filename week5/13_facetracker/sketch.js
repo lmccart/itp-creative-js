@@ -12,7 +12,8 @@ function setup() {
   var htracker = new headtrackr.Tracker({ui: false, debug: canvasInput});
   htracker.init(videoInput, canvasInput);
   htracker.start();
-
+  
+  // drawFace() is a callback for when facetracker finds the face
   document.addEventListener('facetrackingEvent', drawFace);
 }
 
@@ -23,8 +24,8 @@ function draw() {
   ellipse(x,y,w,h);
 }
 
-// We might want to just set variable values here
-// and do the actual drawing
+// Taking the face data and copying over to global variables
+// This will only work for one face
 function drawFace(event) {
   x = event.x;
   y = event.y;

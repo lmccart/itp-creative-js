@@ -43,6 +43,7 @@ function mousePressed() {
 
 function keyPressed() {
   if (key === ' ') {
+    // from pause to play or play to pause
     music.togglePlay();
   }
   //mySound.stop(); // Stop the sound
