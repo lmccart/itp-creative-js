@@ -32,7 +32,7 @@ function draw() {
   background(51);
   // Draw video into canvas
   context.drawImage(video,0,0,width,height);
-};
+}
 
 
 
