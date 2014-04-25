@@ -7,7 +7,7 @@ var context;
 
 function setup() {
 
-  video = createHTML('<video id=\'vid\'><source src=\'fingers.mov\'></video>');
+  video = createHTML('<video id=\'vid\' src=\'fingers.mov\'></video>');
   video = document.getElementById('vid');
   video.play();
   // This will loop the video
