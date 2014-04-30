@@ -38,7 +38,7 @@ How do the tools and platforms we work with shape the things we create? How do c
 
 ###[Week 6](https://github.com/lmccart/itp-creative-js/wiki/Week-6)
 * Mobile, touch events
-* Basic side programming with node
+* Basic server side programming with node
 * Debugging techniques for JS.
     * [Tutorial: good practices](https://github.com/risd-creative-programming/s14-creative-programming-projects/blob/master/coding-best-practices.md) 
 
