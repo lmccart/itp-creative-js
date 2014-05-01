@@ -1,0 +1,13 @@
+
+  body {
+  	margin:0;
+  }
+  
+  #button {
+  	width:100px; 
+  	height:100px; 
+  	background:white; 
+  	top: 20px;
+  	left: 20px;
+  	position: absolute;
+  }

@@ -24,7 +24,7 @@ function setup() {
   // set options to customize gestures
   // https://github.com/EightMedia/hammer.js/wiki/Getting-Started#gesture-options
   var options = {
-    holdTimeout: 3000
+    holdTimeout: 500
   };
   var buttonHammer = new Hammer(button, options);
   
