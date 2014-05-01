@@ -3,7 +3,7 @@
 var red = 0;
 
 function setup() {
-  createGraphics(1000, 1600); // set to fit a standard-ish smartphone
+  createCanvas(windowWidth, windowHeight); 
   noStroke();
   fill(255, 255, 255);
 }
@@ -17,5 +17,4 @@ function draw() {
   } else {
     red = 0;
   }
-
 }

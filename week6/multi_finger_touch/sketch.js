@@ -1,14 +1,10 @@
 // touch events are very similar to mouse events
 
 function setup() {
-  createGraphics(1000, 1600); // set to fit a standard-ish smartphone
+  createCanvas(windowWidth, windowHeight); 
   noStroke();
   fill(255, 255, 255);
   background(200, 190, 190);
-}
-
-function draw() {
-  // keeps programming running even if empty
 }
 
 function touchStarted() {
@@ -19,8 +15,8 @@ function touchStarted() {
 }
 
 function touchMoved() {
-  fill(0, 0, 255);
   for(var i = 0; i < touches.length; i++) {
+    fill(i*50);
     ellipse(touches[i].x, touches[i].y, 80, 80);
   }
 }
@@ -31,4 +27,3 @@ function touchEnded() {
     ellipse(touches[i].x, touches[i].y, 80, 80);
   }
 }
-
