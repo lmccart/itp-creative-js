@@ -3,7 +3,7 @@ var x, y;
 var diameter;
 
 function setup() {
-console.log("HI")
+  console.log(windowWidth);
   createCanvas(windowWidth, windowHeight); 
   noStroke(); 
   x = width/2;
