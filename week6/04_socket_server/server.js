@@ -9,7 +9,7 @@ var url = require('url');
 var path = require('path');
 
 // Using the filesystem module
-var fs = require('fs'); 
+var fs = require('fs');
 
 var server = http.createServer(handleRequest);
 server.listen(8080);
@@ -39,7 +39,7 @@ function handleRequest(req, res) {
   var contentType = typeExt[ext] || 'text/plain';
 
   // User file system module
-  fs.readFile(__dirname + pathname, 
+  fs.readFile(__dirname + pathname,
     // Callback function for reading
     function (err, data) {
       // if there is an error
@@ -61,14 +61,14 @@ var io = require('socket.io').listen(server);
 
 // Register a callback function to run when we have an individual connection
 // This is run for each individual user that connects
-io.sockets.on('connection', 
+io.sockets.on('connection',
   // We are given a websocket object in our function
   function (socket) {
   
     console.log("We have a new client: " + socket.id);
   
     // When this user emits, client side: socket.emit('otherevent',some data);
-    socket.on('mouse', 
+    socket.on('mouse',
       function(data) {
         // Data comes in as whatever was sent, including objects
         console.log("Received: 'mouse' " + data.x + " " + data.y);

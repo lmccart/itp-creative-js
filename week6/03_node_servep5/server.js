@@ -1,12 +1,11 @@
 
 // HTTP Portion
 var http = require('http');
-// URL module
-var url = require('url');
+// Path module
 var path = require('path');
 
 // Using the filesystem module
-var fs = require('fs'); 
+var fs = require('fs');
 
 var server = http.createServer(handleRequest);
 server.listen(8080);
@@ -36,7 +35,7 @@ function handleRequest(req, res) {
   var contentType = typeExt[ext] || 'text/plain';
 
   // User file system module
-  fs.readFile(__dirname + pathname, 
+  fs.readFile(__dirname + pathname,
     // Callback function for reading
     function (err, data) {
       // if there is an error
