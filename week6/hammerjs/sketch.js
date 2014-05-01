@@ -1,6 +1,9 @@
 
+var diameter;
+
 function setup() {
   var cnv = createCanvas(windowWidth, windowHeight); 
+  diameter = windowWidth*0.05;
   noStroke();
   noLoop();
 
@@ -23,7 +26,7 @@ function drawEllipse(event) {
 	//console.log(event);
   var x = event.gesture.center.pageX;
   var y = event.gesture.center.pageY;
-  ellipse(x, y, 100, 100);
+  ellipse(x, y, diameter, diameter);
 }
 
 function changeBackground(event) {
