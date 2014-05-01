@@ -15,6 +15,7 @@ function setup() {
   // you can also use document.getElementById to get a DOM element
   var button = document.getElementById("button");
   Hammer(button).on("tap", changeBackground);
+  Hammer(button).on("hold", changeFill);
 
 }
 
@@ -23,12 +24,19 @@ function draw() {
 }
 
 function drawEllipse(event) {
-	//console.log(event);
+  //console.log(event);
   var x = event.gesture.center.pageX;
   var y = event.gesture.center.pageY;
   ellipse(x, y, diameter, diameter);
 }
 
 function changeBackground(event) {
-	background(random(255), random(255), random(255));
+  print('changeBackground');
+  background(random(255), random(255), random(255));
+}
+
+
+function changeFill(event) {
+  print('changeFill');
+  fill(random(255), random(255), random(255));
 }
