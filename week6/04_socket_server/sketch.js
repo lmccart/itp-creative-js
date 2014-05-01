@@ -1,32 +1,52 @@
 
 
+// Keep track of our socket connection
 var socket;
 
 function setup() {
   createCanvas(600, 400);
   background(0);
+  // Start a socket connection to the server
+  // Some day we would run this server somewhere else
   socket = io.connect('http://localhost');
-  socket.on('mouse', 
+  // We make a named event called 'mouse' and write an
+  // anonymous callback function
+  socket.on('mouse',
+    // When we receive data
     function(data) {
       console.log("Got: " + data.x + " " + data.y);
+      // Draw a blue circle
       fill(0,0,255);
+      noStroke();
       ellipse(data.x,data.y,32,32);
-      //document.getElementById('messages').innerHTML += data;
     }
   );
 }
 
 function draw() {
-
+  // Nothing
 }
 
-function mousePressed() {
+function mouseDragged() {
+  // Draw some white circles
   fill(255);
+  noStroke();
   ellipse(mouseX,mouseY,32,32);
+  // Send the mouse coordinates
   sendmouse(mouseX,mouseY);
 }
 
-var sendmouse = function(xval, yval) {
-  console.log("sendmouse: " + xval + " " + yval);
-  socket.emit('mouse',{ x: xval, y: yval });
-};
+// Function for sending to the socket
+function sendmouse(xpos, ypos) {
+  // We are sending!
+  console.log("sendmouse: " + xpos + " " + ypos);
+  
+  // Make a little object with  and y
+  var data = {
+    x: xpos,
+    y: ypos
+  };
+
+  // Send that object to the socket
+  socket.emit('mouse',data);
+}
