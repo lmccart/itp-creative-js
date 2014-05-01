@@ -4,7 +4,7 @@
 var socket;
 
 function setup() {
-  createCanvas(600, 400);
+  createCanvas(windowWidth, windowHeight);
   background(0);
   // Start a socket connection to the server
   // Some day we would run this server somewhere else
@@ -18,7 +18,7 @@ function setup() {
       // Draw a blue circle
       fill(0,0,255);
       noStroke();
-      ellipse(data.x,data.y,32,32);
+      ellipse(data.x,data.y,80,80);
     }
   );
 }
@@ -31,7 +31,7 @@ function mouseDragged() {
   // Draw some white circles
   fill(255);
   noStroke();
-  ellipse(mouseX,mouseY,32,32);
+  ellipse(mouseX,mouseY,80,80);
   // Send the mouse coordinates
   sendmouse(mouseX,mouseY);
 }
