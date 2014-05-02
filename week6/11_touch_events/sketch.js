@@ -9,11 +9,9 @@ function setup() {
 
 // mousePressed
 function touchStarted() {
-  var x = touchX || mouseX;
-  var y = touchY || mouseY;
   fill(0, 255, 0);
   print('pressed or started');
-  ellipse(x, y, 80, 80);
+  ellipse(touchX, touchY, 80, 80);
 }
 
 // mouseDragged
