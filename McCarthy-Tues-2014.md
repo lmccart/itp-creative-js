@@ -22,7 +22,7 @@ Lauren McCarthy Tuesday Section 2014
 * [Week 4: April 15](https://github.com/lmccart/itp-creative-js/wiki/Final-Project-Proposal-Lauren)
 * Week 5: April 22
 * Week 6: Friday, May 2 9:30-12 **DATE CHANGE**
-* Week 7: May 6
+* [Week 7: May 6 -- FINAL](https://github.com/lmccart/itp-creative-js/wiki/Final-Project-Lauren)
 
 ##Expectations 
 
