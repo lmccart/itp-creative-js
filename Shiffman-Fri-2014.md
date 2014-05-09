@@ -14,13 +14,13 @@ Daniel Shiffman Tuesday Section 2013
 
 ##Homework
 
-* [Week 1: March 28](https://github.com/lmccart/itp-creative-js/wiki/Week-1-Homework-Lauren)
-* [Week 2: April 4](https://github.com/lmccart/itp-creative-js/wiki/Week-1-Homework-Dan)
-* Week 3: April 11
+* [Week 1: March 28](https://github.com/lmccart/itp-creative-js/wiki/Week-1-Homework-Dan)
+* [Week 2: April 4](https://github.com/lmccart/itp-creative-js/wiki/Week-2-Homework-Dan)
+* [Week 3: April 11](https://github.com/lmccart/itp-creative-js/wiki/Week-3-Homework-Dan)
 * Week 4: April 18
-* Week 5: April 25
-* Week 6: May 2
-* Week 7: May 9
+* [Week 5: April 25](https://github.com/lmccart/itp-creative-js/wiki/Final-Project-Proposal-Dan)
+* [Week 6: May 2](https://github.com/lmccart/itp-creative-js/wiki/Final-Project-Proposal-Dan)
+* [Week 7: May 9](https://github.com/lmccart/itp-creative-js/wiki/Final-Project-Dan)
 
 
 ##Expectations 
