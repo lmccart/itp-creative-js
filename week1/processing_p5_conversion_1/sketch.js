@@ -39,9 +39,9 @@ function dragSegment(i, xin, yin) {         // **change** void drawSegment() to 
 }
 
 function segment(x, y, a) {                 // **change** void segment() to function segment(). remove type delcarations
-  pushMatrix();                             // pushMatrix() is the same
+  push();                                   // **change** pushMatrix() is push()
   translate(x, y);                          // translate() is the same
   rotate(a);                                // rotate() is the same
   line(0, 0, segLength, 0);                 // line() is the same
-  popMatrix();                              // popMatrix() is the same
+  pop();                                    // **change** popMatrix() is pop()
 }
