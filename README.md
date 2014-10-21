@@ -43,7 +43,7 @@ Class will culminate final projects. You are expected to push your abilities to 
 * [JavaScript basics](https://github.com/lmccart/p5.js/wiki/JavaScript-basics)
 * [Download p5.js](http://p5js.org/download/)
 * [Getting started with p5.js](http://p5js.org/get-started/)
-* We will work client-side this week, if you need to set up a simple server here is info for [simple server with python or apache](https://github.com/lmccart/p5.js/wiki/Local-server). Next week we will talk in depth about servers, node.js and servi.js.
+* We will work client-side this week. If you need to set up a simple server here is info for [simple server with python or apache](https://github.com/lmccart/p5.js/wiki/Local-server). Next week we will talk in depth about servers, node.js and servi.js. (OPTIONAL)
 
 **[Assignment 1 (DUE 10/29)](https://github.com/lmccart/itp-creative-js/wiki/Assignments#assignment-1-due-1029)**
 
