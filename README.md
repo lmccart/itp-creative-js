@@ -32,7 +32,7 @@ Class will culminate final projects. You are expected to push your abilities to 
 ##Syllabus
 
 
-###Week 1 (10/22): Intro, JavaScripts basics, p5.js
+###Week 1 (10/22): Intro, JavaScript basics, p5.js
 
 **Getting started**
 * [Github student developer pack](https://education.github.com/pack) - includes Digital Ocean $100 credit and more.
