@@ -46,9 +46,9 @@ Class will culminate final projects. You are expected to push your abilities to 
 **[Assignment 1 (DUE 10/29)](https://github.com/lmccart/itp-creative-js/wiki/Assignments#assignment-1-due-1029)**
 
 
-###Week 2 (10/29)
+###Week 2 (10/29): 
 
-**More JS/HTML basics**
+**JS continued, intro to HTML**
 * [Advanced JavaScript basics](https://github.com/lmccart/p5.js/wiki/JavaScript-basics) - Arrays and Objects
 * [Intro to HTML and CSS](https://github.com/lmccart/p5.js/wiki/Intro-to-HTML-and-CSS)
 
