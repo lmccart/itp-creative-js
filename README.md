@@ -45,6 +45,43 @@ Class will culminate final projects. You are expected to push your abilities to 
 
 **[Assignment 1 (DUE 10/29)](https://github.com/lmccart/itp-creative-js/wiki/Assignments#assignment-1-due-1029)**
 
+
+###Week 2 (10/29)
+
+* [Advanced JavaScript basics](https://github.com/lmccart/p5.js/wiki/JavaScript-basics) - Arrays and Objects
+* [Intro to HTML and CSS](https://github.com/lmccart/p5.js/wiki/Intro-to-HTML-and-CSS)
+* Serving it up
+ * [Digital Ocean setup](https://github.com/robynitp/networkedmedia/wiki/Digital-Ocean-Set-up)
+ * [Setting up a web server with Servi](https://github.com/robynitp/networkedmedia/wiki/Web-Servers-with-Servi)
+
+
+
+###Week 3 (11/5)
+
+* JavaScript events - manipulating the Document Object Model
+
+###Week 4 (11/12)
+
+* HTML forms
+* Web services: AJAX and JSON
+
+###Week 5 (11/19)
+
+* Server-side JavaScript writing basic HTTP servers with Servi and Node.js
+* Data storage
+* Query strings, GET vs. POST
+
+###Week 6 (__Will be rescheduled, date TBD!__)
+
+* WebSockets realtime interaction in the browser
+* Serial interfacing with the Arduino 
+
+###Week 7 (12/3)
+
+Final project presentations
+
+
+
 ##Resources
 
 ###p5.js
