@@ -31,6 +31,20 @@ Class will culminate final projects. You are expected to push your abilities to 
 
 ##Syllabus
 
+
+###Week 1 (10/22): Intro, JavaScripts basics, p5.js
+
+**Getting started**
+* [Github student developer pack](https://education.github.com/pack) - includes Digital Ocean $100 credit and more.
+* Download a code editor like [TextWrangler](http://www.barebones.com/products/textwrangler/) or [Sublime Text](http://www.sublimetext.com/).
+* We'll be using the command line regularly in this class. Nothing too fancy; just the basics. Get familiar, at the very least, with the commands `ls`, `cd`, and `mkdir`. [Basic unix commands](http://www.webmonkey.com/2010/02/learn_enough_unix_for_your_resume/#Basic_Commands).
+
+**Intro JavaScript**
+* [JavaScript basics](https://github.com/lmccart/p5.js/wiki/JavaScript-basics)
+* JavaScript basics with p5.js
+
+**[Assignment 1 (DUE 10/29)](https://github.com/lmccart/itp-creative-js/wiki/Assignments#assignment-1-due-1029)**
+
 ##Resources
 
 ###p5.js
