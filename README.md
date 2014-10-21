@@ -41,7 +41,8 @@ Class will culminate final projects. You are expected to push your abilities to 
 
 **Intro to JS**
 * [JavaScript basics](https://github.com/lmccart/p5.js/wiki/JavaScript-basics)
-* JavaScript basics with p5.js
+* [Download p5.js](http://p5js.org/download/)
+* [Getting started with p5.js](http://p5js.org/get-started/)
 
 **[Assignment 1 (DUE 10/29)](https://github.com/lmccart/itp-creative-js/wiki/Assignments#assignment-1-due-1029)**
 
