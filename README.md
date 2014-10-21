@@ -48,9 +48,11 @@ Class will culminate final projects. You are expected to push your abilities to 
 
 ###Week 2 (10/29)
 
+** More JS/HTML basics**
 * [Advanced JavaScript basics](https://github.com/lmccart/p5.js/wiki/JavaScript-basics) - Arrays and Objects
 * [Intro to HTML and CSS](https://github.com/lmccart/p5.js/wiki/Intro-to-HTML-and-CSS)
-* Serving it up
+
+** Setting up a server**
  * [Digital Ocean setup](https://github.com/robynitp/networkedmedia/wiki/Digital-Ocean-Set-up)
  * [Setting up a web server with Servi](https://github.com/robynitp/networkedmedia/wiki/Web-Servers-with-Servi)
 
