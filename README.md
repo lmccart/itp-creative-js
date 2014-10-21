@@ -49,7 +49,7 @@ Class will culminate final projects. You are expected to push your abilities to 
 **[Assignment 1 (DUE 10/29)](https://github.com/lmccart/itp-creative-js/wiki/Assignments#assignment-1-due-1029)**
 
 
-###Week 2 (10/29): 
+###Week 2 (10/29): HTML+CSS+JS, servers
 
 **JS continued, intro to HTML**
 * [Advanced JavaScript basics](https://github.com/lmccart/p5.js/wiki/JavaScript-basics) - Arrays and Objects
@@ -61,22 +61,24 @@ Class will culminate final projects. You are expected to push your abilities to 
 
 
 
-###Week 3 (11/5)
+###Week 3 (11/5): Events and media
 
-* JavaScript events - manipulating the Document Object Model
+* JavaScript events - mouse, keyboard, touch, window
+* Manipulating the Document Object Model
+* Other HTML5 media - video, audio, capture
 
-###Week 4 (11/12)
+###Week 4 (11/12): APIs, AJAX, JSON
 
 * HTML forms
 * Web services: AJAX and JSON
 
-###Week 5 (11/19)
+###Week 5 (11/19): Server-side JS
 
 * Server-side JavaScript writing basic HTTP servers with Servi and Node.js
 * Data storage
 * Query strings, GET vs. POST
 
-###Week 6 (__Will be rescheduled, date TBD!__)
+###Week 6 (__Will be rescheduled, date TBD!__): WebSockets, Arduino
 
 * WebSockets realtime interaction in the browser
 * Serial interfacing with the Arduino 
