@@ -41,10 +41,13 @@ Class will culminate final projects. You are expected to push your abilities to 
 
 **Intro to JS**
 * [JavaScript basics](https://github.com/lmccart/p5.js/wiki/JavaScript-basics)
+
+**Intro to p5.js and canvas**
 * [Download p5.js](http://p5js.org/download/). The download comes with a copy of p5.js, you can also use a statically hosted version from the [CDN](http://cdnjs.com/libraries/p5.js), more info on that [here](http://p5js.org/get-started/#file-setup).
 * [Getting started with p5.js](http://p5js.org/get-started/)
 * [Processing <> p5.js transition](https://github.com/lmccart/p5.js/wiki/Processing-transition)
 * (OPTIONAL) We will work client-side this week. If you need to set up a simple server here is info for [simple server with python or apache](https://github.com/lmccart/p5.js/wiki/Local-server). Next week we will talk in depth about servers, node.js and servi.js. 
+* [HTML5Canvas without p5.js](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial)
 
 **[Assignment 1 (DUE 10/29)](https://github.com/lmccart/itp-creative-js/wiki/Assignments#assignment-1-due-1029)**
 
