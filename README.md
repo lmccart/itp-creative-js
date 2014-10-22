@@ -113,6 +113,8 @@ Final project presentations
 * [JavaScript: The Definitive Guide](http://shop.oreilly.com/product/9780596000486.do)
 * [Eloquent JavaScript](http://eloquentjavascript.net/contents.html), Marijn Haverbeke
 * [Beginning JavaScript](http://www.amazon.com/Beginning-JavaScript-Paul-Wilton/dp/0470525932), Paul Wilton and Jeremy McPeak
+* http://www.nyu.edu/lynda - lots of great tutorials here. Log in with your normal nyu net-id/password for full access.
+
 
 ###Tools
 * Checking code: [JSLint](http://www.jslint.com/) / [JSHint](http://www.jshint.com)
