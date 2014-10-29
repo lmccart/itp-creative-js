@@ -53,6 +53,13 @@ Class will culminate final projects. You are expected to push your abilities to 
 
 ###Week 2 (10/29): HTML+CSS+JS, servers
 
+**Setup**
+
+* [Github student developer pack](https://education.github.com/pack) - includes Digital Ocean $100 credit and more.
+* Sign up for DigitalOcean - use this [referral link](https://www.digitalocean.com/?refcode=4d83915eeae0) for $10 credit if your developer pack hasn't been confirmed yet.
+* Download an FTP client like [Cyberduck](https://cyberduck.io/?l=en), [Filezilla](https://filezilla-project.org/), [Fetch - mac only](http://fetchsoftworks.com/), etc.
+* Download [servi](https://github.com/antiboredom/servi.js/releases).
+
 **JS continued, intro to HTML**
 * [Advanced JavaScript basics](https://github.com/lmccart/p5.js/wiki/JavaScript-basics) - Arrays and Objects
 * [Intro to HTML and CSS](https://github.com/lmccart/p5.js/wiki/Intro-to-HTML-and-CSS)
