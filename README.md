@@ -53,8 +53,14 @@ Class will culminate final projects. You are expected to push your abilities to 
 
 ###Week 2 (10/29): HTML+CSS+JS, servers
 
-**JS continued, intro to HTML**
-* [Advanced JavaScript basics](https://github.com/lmccart/p5.js/wiki/JavaScript-basics) - Arrays and Objects
+**Setup**
+
+* [Github student developer pack](https://education.github.com/pack) - includes Digital Ocean $100 credit and more.
+* Sign up for DigitalOcean - use this [referral link](https://www.digitalocean.com/?refcode=4d83915eeae0) for $10 credit if your developer pack hasn't been confirmed yet.
+* Download an FTP client like [Cyberduck](https://cyberduck.io/?l=en), [Filezilla](https://filezilla-project.org/), [Fetch - mac only](http://fetchsoftworks.com/), etc.
+* Download [servi](https://github.com/antiboredom/servi.js/releases).
+
+**JS, HTML, CSS all together**
 * [Intro to HTML and CSS](https://github.com/lmccart/p5.js/wiki/Intro-to-HTML-and-CSS)
 
 **Setting up a server**
@@ -113,6 +119,8 @@ Final project presentations
 * [JavaScript: The Definitive Guide](http://shop.oreilly.com/product/9780596000486.do)
 * [Eloquent JavaScript](http://eloquentjavascript.net/contents.html), Marijn Haverbeke
 * [Beginning JavaScript](http://www.amazon.com/Beginning-JavaScript-Paul-Wilton/dp/0470525932), Paul Wilton and Jeremy McPeak
+* http://www.nyu.edu/lynda - lots of great tutorials here. Log in with your normal nyu net-id/password for full access.
+
 
 ###Tools
 * Checking code: [JSLint](http://www.jslint.com/) / [JSHint](http://www.jshint.com)
