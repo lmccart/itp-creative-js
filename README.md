@@ -60,8 +60,7 @@ Class will culminate final projects. You are expected to push your abilities to 
 * Download an FTP client like [Cyberduck](https://cyberduck.io/?l=en), [Filezilla](https://filezilla-project.org/), [Fetch - mac only](http://fetchsoftworks.com/), etc.
 * Download [servi](https://github.com/antiboredom/servi.js/releases).
 
-**JS continued, intro to HTML**
-* [Advanced JavaScript basics](https://github.com/lmccart/p5.js/wiki/JavaScript-basics) - Arrays and Objects
+**JS, HTML, CSS all together**
 * [Intro to HTML and CSS](https://github.com/lmccart/p5.js/wiki/Intro-to-HTML-and-CSS)
 
 **Setting up a server**
