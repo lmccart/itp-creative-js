@@ -26,11 +26,12 @@ function Apple(a, b) {
   }
 }
 
-Apple.prototype.update = function() {
-  this.x += 3;
-  if (this.x > width) {
-    this.x = 0;
-  }
-}
+// alternative way to add methods (instead of this.update...)
+// Apple.prototype.update = function() {
+//   this.x += 3;
+//   if (this.x > width) {
+//     this.x = 0;
+//   }
+// }
 
 
