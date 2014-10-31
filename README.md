@@ -35,17 +35,16 @@ Class will culminate final projects. You are expected to push your abilities to 
 ###Week 1 (10/22): Intro, JavaScript basics, p5.js
 
 **Getting started**
-* [Github student developer pack](https://education.github.com/pack) - includes Digital Ocean $100 credit and more.
-* Download a code editor like [TextWrangler](http://www.barebones.com/products/textwrangler/) or [Sublime Text](http://www.sublimetext.com/).
-* We'll be using the command line regularly in this class. Nothing too fancy; just the basics. Get familiar, at the very least, with the commands `ls`, `cd`, and `mkdir`. [Basic unix commands](http://www.webmonkey.com/2010/02/learn_enough_unix_for_your_resume/#Basic_Commands).
+1. Sign up for the [Github student developer pack](https://education.github.com/pack) - includes Digital Ocean $100 credit and more.
+2. Download a code editor like [TextWrangler](http://www.barebones.com/products/textwrangler/) or [Sublime Text](http://www.sublimetext.com/).
 
-**[Intro to JS basics](https://github.com/lmccart/p5.js/wiki/JavaScript-basics)**
+**Intro to JS basics**
+* [Notes: Intro to JS basics](https://github.com/lmccart/p5.js/wiki/JavaScript-basics)
 
 **Intro to p5.js and canvas**
 * [Download p5.js](http://p5js.org/download/). The download comes with a copy of p5.js, you can also use a statically hosted version from the [CDN](http://cdnjs.com/libraries/p5.js), more info on that [here](http://p5js.org/get-started/#file-setup).
 * [Getting started with p5.js](http://p5js.org/get-started/)
 * [Processing <> p5.js transition](https://github.com/lmccart/p5.js/wiki/Processing-transition)
-* (OPTIONAL) We will work client-side this week. If you need to set up a simple server here is info for [simple server with python or apache](https://github.com/lmccart/p5.js/wiki/Local-server). Next week we will talk in depth about servers, node.js and servi.js. 
 * [HTML5Canvas without p5.js](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial)
 
 **[Assignment 1 (DUE 10/29)](https://github.com/lmccart/itp-creative-js/wiki/Assignments#assignment-1-due-1029)**
@@ -53,20 +52,21 @@ Class will culminate final projects. You are expected to push your abilities to 
 
 ###Week 2 (10/29): HTML+CSS+JS, servers
 
-**Setup**
+**Intro to HTML and CSS**
+ 
+* [Notes: Intro to HTML and CSS](https://github.com/lmccart/p5.js/wiki/Intro-to-HTML-and-CSS)
 
-* [Github student developer pack](https://education.github.com/pack) - includes Digital Ocean $100 credit and more.
-* Sign up for DigitalOcean - use this [referral link](https://www.digitalocean.com/?refcode=4d83915eeae0) for $10 credit if your developer pack hasn't been confirmed yet.
-* Download an FTP client like [Cyberduck](https://cyberduck.io/?l=en), [Filezilla](https://filezilla-project.org/), [Fetch - mac only](http://fetchsoftworks.com/), etc.
-* Download [servi](https://github.com/antiboredom/servi.js/releases).
+**Server setup**
 
-**JS, HTML, CSS all together**
-* [Intro to HTML and CSS](https://github.com/lmccart/p5.js/wiki/Intro-to-HTML-and-CSS)
+1. Sign up for Digital Ocean, you can use this [referral code](https://www.digitalocean.com/?refcode=4d83915eeae0) or the code from the [Github student developer pack](https://education.github.com/pack).
 
-**Setting up a server**
- * [Digital Ocean setup](https://github.com/robynitp/networkedmedia/wiki/Digital-Ocean-Set-up)
- * [Setting up a web server with Servi](https://github.com/robynitp/networkedmedia/wiki/Web-Servers-with-Servi)
+2. Download an FTP client like [Cyberduck](https://cyberduck.io/?l=en), [Filezilla](https://filezilla-project.org/), [Fetch - mac only](http://fetchsoftworks.com/), etc.
 
+3. Download [servi](https://github.com/antiboredom/servi.js/releases).
+
+4. [Tutorial: Digital Ocean setup](https://github.com/robynitp/networkedmedia/wiki/Digital-Ocean-Set-up) - Follow the steps to create an account, a new droplet, and connect with Cyberduck.
+
+5. [Tutorial: Setting up a web server with Servi](https://github.com/robynitp/networkedmedia/wiki/Web-Servers-with-Servi) - Create a basic file server using these instructions. Upload your files to your Digital Ocean account via Cyberduck.
 
 
 ###Week 3 (11/5): Events and media
@@ -124,6 +124,7 @@ Final project presentations
 
 ###Tools
 * Checking code: [JSLint](http://www.jslint.com/) / [JSHint](http://www.jshint.com)
+* We'll be using the command line regularly in this class. Nothing too fancy; just the basics. Get familiar, at the very least, with the commands `ls`, `cd`, and `mkdir`. [Basic unix commands](http://www.webmonkey.com/2010/02/learn_enough_unix_for_your_resume/#Basic_Commands).
 * Browser debugging: Chrome Developer Tools ([tutorial](https://developer.chrome.com/extensions/tut_debugging)) / Firebug ([tutorial](http://www.developerfusion.com/article/139949/debugging-javascript-with-firebug/))
 * Mobile debugging [jsconsole.com](http://jsconsole.com)
 * Sharing code snippets (useful for asking questions): [gist.github.com](http://gist.github.com)
