@@ -35,6 +35,7 @@ Class will culminate final projects. You are expected to push your abilities to 
 ###Week 1 (10/22): Intro, JavaScript basics, p5.js
 
 **Getting started**
+
 1. Sign up for the [Github student developer pack](https://education.github.com/pack) - includes Digital Ocean $100 credit and more.
 
 2. Download a code editor like [TextWrangler](http://www.barebones.com/products/textwrangler/) or [Sublime Text](http://www.sublimetext.com/).
@@ -46,13 +47,13 @@ Class will culminate final projects. You are expected to push your abilities to 
 
 1. [Download p5.js](http://p5js.org/download/). The download comes with a copy of p5.js, you can also use a statically hosted version from the [CDN](http://cdnjs.com/libraries/p5.js), more info on that [here](http://p5js.org/get-started/#file-setup).
 
-2. [Tutorial: Getting started with p5.js](http://p5js.org/get-started/) - set up your files for editing and viewing.
+2. [Tutorial: Getting started with p5.js](http://p5js.org/get-started/) - Set up your files for editing and viewing.
 
-3. [Processing ~ p5.js transition](https://github.com/lmccart/p5.js/wiki/Processing-transition) - learn to convert a sketch from Processing to p5.js.
+3. [Processing ~ p5.js transition](https://github.com/lmccart/p5.js/wiki/Processing-transition) - Learn to convert a sketch from Processing to p5.js.
 
-4. [p5.js reference](http://p5js.org/reference/) and [examples](http://p5js.org/learn/#examples) - look through and get comfortable with the p5.js functionality.
+4. [p5.js reference](http://p5js.org/reference/) and [examples](http://p5js.org/learn/#examples) - Look through and get comfortable with the p5.js functionality.
 
-5. FYI (optional): [HTML5Canvas without p5.js](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial) - see how canvas drawing is done in plain JS without using p5.js.
+5. FYI (optional): [HTML5Canvas without p5.js](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial) - See how canvas drawing is done in plain JS without using p5.js.
 
 **[Assignment 1 (DUE 10/29)](https://github.com/lmccart/itp-creative-js/wiki/Assignments#assignment-1-due-1029)**
 
