@@ -81,11 +81,14 @@ Class will culminate final projects. You are expected to push your abilities to 
 
 ###Week 3 (11/5): Events and media
 
-1. [Notes: Intro to CSS and layouts](https://github.com/lmccart/p5.js/wiki/Intro-to-HTML-and-CSS#css) - Create an external stylesheet and layout an HTML page.
+1. [Tutorial: installing forever](http://www.hacksparrow.com/keep-node-js-script-running-after-logging-out-from-shell.html) - The default behavior of Node is to kill the script when you log out of ssh or quit Terminal. That's fine for short-term use, but to keep your web site up and persistent, install forever.
 
 2. [Notes: Intro to DOM manipulation and events](https://github.com/lmccart/p5.js/wiki/Intro-to-DOM-manipulation-and-events) - Use JS to manipulate the HTML page and make it react to events (mouse, keyboard, touch, page load). 
 
 3. [Tutorial: p5.dom library](https://github.com/lmccart/p5.js/wiki/Beyond-the-canvas) - You can also use the p5.dom library to handle HTML manipulation and events.
+
+4. (Optional) [Notes: Intro to CSS and layouts](https://github.com/lmccart/p5.js/wiki/Intro-to-HTML-and-CSS#css) - Create an external stylesheet and layout an HTML page.
+
 
 **[Assignment 3 (DUE 11/12)](https://github.com/lmccart/itp-creative-js/wiki/Assignments#assignment-3-due-1112)**
 
