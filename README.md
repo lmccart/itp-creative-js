@@ -76,12 +76,19 @@ Class will culminate final projects. You are expected to push your abilities to 
 
 5. [Tutorial: Setting up a web server with Servi](https://github.com/robynitp/networkedmedia/wiki/Web-Servers-with-Servi) - Create a basic file server using these instructions. Upload your files to your Digital Ocean account via Cyberduck.
 
+**[Assignment 2 (DUE 11/5)](https://github.com/lmccart/itp-creative-js/wiki/Assignments#assignment-2-due-115)**
+
 
 ###Week 3 (11/5): Events and media
 
-* JavaScript events - mouse, keyboard, touch, window
-* Manipulating the Document Object Model
-* Other HTML5 media - video, audio, capture
+1. [Notes: Intro to CSS and layouts](https://github.com/lmccart/p5.js/wiki/Intro-to-HTML-and-CSS#css) - Create an external stylesheet and layout an HTML page.
+
+2. [Notes: Intro to DOM manipulation and events](https://github.com/lmccart/p5.js/wiki/Intro-to-DOM-manipulation-and-events) - Use JS to manipulate the HTML page and make it react to events (mouse, keyboard, touch, page load). 
+
+3. [Tutorial: p5.dom library](https://github.com/lmccart/p5.js/wiki/Beyond-the-canvas) - You can also use the p5.dom library to handle HTML manipulation and events.
+
+**[Assignment 3 (DUE 11/12)](https://github.com/lmccart/itp-creative-js/wiki/Assignments#assignment-3-due-1112)**
+
 
 ###Week 4 (11/12): APIs, AJAX, JSON
 
