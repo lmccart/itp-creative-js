@@ -1,0 +1,30 @@
+<head>
+  <script language="javascript" type="text/javascript">
+
+    // create an object constructor function
+    function Cat(name, age) {
+
+      // assign some properties using "this."
+      this.name = name;
+      this.age = age;
+      this.color = "Black";
+
+      // assign some methods
+      this.greet = function() {
+        console.log("Hello, I'm " + this.name);
+      }
+    }
+
+    // create instances of the object using "new"
+    var cat0 = new Cat("Joanie", 10);
+    var cat1 = new Cat("Jay", 2);
+
+    // call methods or access properties of the instances
+    cat0.greet(); // "Hello, I'm Joanie"
+    cat1.greet(); // "Hello, I'm Jay"
+    
+  </script>
+</head>
+
+<body>
+</body>
