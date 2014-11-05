@@ -104,12 +104,12 @@ Class will culminate final projects. You are expected to push your abilities to 
 * Data storage
 * Query strings, GET vs. POST
 
-###Week 6 (12/3): WebSockets, Arduino __Note the date change!__
+###Week 6 (12/3): WebSockets, Arduino _Note the date change!_
 
 * WebSockets realtime interaction in the browser
 * Serial interfacing with the Arduino 
 
-###Week 7 (12/10) __Note the date change!__
+###Week 7 (12/10) _Note the date change!_
 
 Final project presentations
 
