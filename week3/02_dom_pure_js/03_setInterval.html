@@ -1,0 +1,27 @@
+<html>
+  <head></head>
+  <body>
+    <p id="gargoyle">I see 0 gargoyles.</p>
+
+    <script type="text/javascript">
+      // ITP Networked Media, Fall 2014
+      // https://github.com/shiffman/itp-networked-media
+      // These are adapted from https://github.com/lmccart/itp-creative-js
+
+      // These are adapted from https://github.com/lmccart/itp-creative-js
+      
+      // Variable to count up
+      var counter = 0;
+      
+      // A function to add a new gargoyle
+      function countIt() {
+        var gargoyle = document.getElementById('gargoyle');
+        counter++;
+        gargoyle.innerHTML = 'I see ' + counter + ' gargoyles.';
+      }
+      
+      // This executes the countIt() function over and over again every 1,000 milliseconds
+      setInterval(countIt, 1000);
+    </script>
+  </body>
+</html>

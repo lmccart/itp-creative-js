@@ -1,0 +1,22 @@
+<html>
+  <head></head>
+  <body>
+    <p id="gargoyle">I <b>love</b> pandas.</p>
+
+    <script type="text/javascript">
+      // ITP Networked Media, Fall 2014
+      // https://github.com/shiffman/itp-networked-media
+      // These are adapted from https://github.com/lmccart/itp-creative-js
+
+      function doSomething() {
+        // In this case, 'this' doesn't point to an element
+        // 'this' refers to the window since that's where
+        // the event occurred, so we have to grab it to use it
+        var elt = document.getElementById('gargoyle');
+        elt.innerHTML = 'I've been resized!';
+      }
+
+      window.addEventListener('resize', doSomething);
+    </script>
+  </body>
+</html>

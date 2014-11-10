@@ -1,0 +1,20 @@
+<html>
+  <head>
+    <script type="text/javascript">
+      // ITP Networked Media, Fall 2014
+      // https://github.com/shiffman/itp-networked-media
+      // These are adapted from https://github.com/lmccart/itp-creative-js
+
+      // This is a function that will be called
+      // only when the full page has been loaded
+      function init() {
+        var elt = document.getElementById('gargoyle');
+        console.log(elt.innerHTML);
+      }
+      window.addEventListener('load', init);
+    </script>
+  </head>
+  <body>
+    <p id="gargoyle">I <b>love</b> pandas.</p>
+  </body>
+</html>

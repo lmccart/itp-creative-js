@@ -1,0 +1,23 @@
+<html>
+  <head></head>
+  <body>
+    <p id="gargoyle">I <b>love</b> gargoyles.</p>
+
+    <script type="text/javascript">
+      // ITP Networked Media, Fall 2014
+      // https://github.com/shiffman/itp-networked-media
+      // These are adapted from https://github.com/lmccart/itp-creative-js
+
+      // These are adapted from https://github.com/lmccart/itp-creative-js
+      
+      // This function changes the text
+      function changeText() {
+        var gargoyle = document.getElementById('gargoyle');
+        gargoyle.innerHTML = 'Look out!  A gargoyle';
+      }
+
+      // This function says that changeText should be executed 1000 milliseconds later
+      setTimeout(changeText, 1000);
+    </script>
+  </body>
+</html>

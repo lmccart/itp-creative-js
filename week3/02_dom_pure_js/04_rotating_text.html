@@ -1,0 +1,41 @@
+<html>
+  <head></head>
+  <body>
+
+    <p id="someText">nothing</p>
+
+    <script type="text/javascript">
+      // ITP Networked Media, Fall 2014
+      // https://github.com/shiffman/itp-networked-media
+      // These are adapted from https://github.com/lmccart/itp-creative-js
+
+      // Index into an array
+      var n = 0;
+      // An array of Strings
+      var options = ['Far from it; I thought had occurred we were hopelessly in love the brethren.',
+      'He went to the natural mathematical properties of crystals are used instead.',
+      'As she goes, she herself was preparing to pacify the aborigines never bathed.',
+      'I found the razor.',
+      'The social security and cultural goods of the ship, the pilot\'s oaths became fewer.',
+      'It was a thoroughly honest and public-spirited.'];
+
+      // Every one second execute a function
+      setInterval(changeText, 1000);
+       
+      // This function shows a new piece of text from the array
+      function changeText() {
+        // increment n
+        n++;
+        
+        // check if n is past end of array and return to beginning
+        if (n >= options.length) {
+          n = 0;
+        }
+
+        // grab element and change src
+        var elt = document.getElementById('someText');
+        elt.innerHTML = options[n];
+      }
+    </script>
+  </body>
+</html>

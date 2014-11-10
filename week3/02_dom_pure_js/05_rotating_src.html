@@ -1,0 +1,34 @@
+<html>
+  <head></head>
+  <body>
+
+    <img id="myImage" src="images/colors.jpg" />
+
+    <script type="text/javascript">
+      // ITP Networked Media, Fall 2014
+      // https://github.com/shiffman/itp-networked-media
+      // These are adapted from https://github.com/lmccart/itp-creative-js
+
+      // Now we have an array of Strings which are file names
+      var n = 0;
+      var options = ['colors.jpg', 'people.jpg', 'sander.jpg', 'princess.jpg', 'cookies.jpg'];
+
+      // Show a different image every 1 second
+      setInterval(changeImage, 1000);
+
+      function changeImage() {
+        // increment n
+        n++;
+        
+        // check if n is past end of array and return to beginning
+        if (n >= options.length) {
+          n = 0;
+        }
+
+        // grab element and change src
+        var elt = document.getElementById('myImage');
+        elt.src = 'images/' + options[n];
+      }
+    </script>
+  </body>
+</html>

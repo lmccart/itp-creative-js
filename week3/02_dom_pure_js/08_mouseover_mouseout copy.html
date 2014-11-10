@@ -1,0 +1,36 @@
+<html>
+  <head>
+  <style>
+    #box {
+      background-color: pink;
+      padding: 24px;
+    }
+  </style>
+
+  </head>
+  <body>
+    <div id ="box">I <b>love</b> pandas.</div>
+
+    <script type="text/javascript">
+      // ITP Networked Media, Fall 2014
+      // https://github.com/shiffman/itp-networked-media
+      // These are adapted from https://github.com/lmccart/itp-creative-js
+
+      // Two functions
+      function showHello() {
+        this.innerHTML = 'hi there!';
+      }
+
+      function showGoodbye() {
+        this.innerHTML = 'goodbye :(';
+      }
+
+      // Grab element to attach listeners to
+      var div = document.getElementById('box');
+
+      // Attach listeners for two different events
+      div.addEventListener('mouseover', showHello);
+      div.addEventListener('mouseout', showGoodbye);
+    </script>
+  </body>
+</html>

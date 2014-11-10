@@ -1,0 +1,31 @@
+<html>
+  <head></head>
+  <body>
+    <p id="gargoyle">I <b>love</b> gargoyles.</p>
+    <p id="panda">I <b>love</b> pandas.</p>
+
+    <script type="text/javascript">
+      // ITP Networked Media, Fall 2014
+      // https://github.com/shiffman/itp-networked-media
+      // These are adapted from https://github.com/lmccart/itp-creative-js
+
+      // By using 'this', the function can be associated
+      // with multiple elements and JS will determine its
+      // context ('this') automatically based on the element
+      // the event is attached to
+      function doSomething() {
+        this.innerHTML = 'I was clicked.';
+        // The below way doesn't make sense anymore
+        // elt.innerHTML = 'I was clicked.';
+      }
+
+      // Grab the elements you want to attach the event to
+      var garg = document.getElementById('gargoyle');
+      var pand = document.getElementById('panda');
+
+      // Attach the function for chosen event
+      garg.addEventListener('click', doSomething);
+      pand.addEventListener('click', doSomething);
+    </script>
+  </body>
+</html>

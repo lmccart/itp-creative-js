@@ -1,0 +1,53 @@
+<html>
+  <head></head>
+  <body>
+    <p id="gargoyle">Gargoyle</p>
+
+    <div class="orange">Orange</div>
+    <div class="sponge">Sponge</div>
+
+    <ul>
+      <li>an item</li>
+      <li>another item</li>
+      <li>yup, another item</li>
+      <li>yet again, an item</li>
+    </ul>
+
+    <img id="colorImage" src="images/colors.jpg" />
+
+    <p id="pandas">I <b>love</b> pandas.</p>
+
+    <script type='text/javascript'>
+      // ITP Networked Media, Fall 2014
+      // https://github.com/shiffman/itp-networked-media
+      // These are adapted from https://github.com/lmccart/itp-creative-js
+
+      // Getting a single element by its ID
+      var gargoyle = document.getElementById('gargoyle');
+      console.log(gargoyle);
+
+      // Getting an array of elements by their class name
+      var oranges = document.getElementsByClassName('orange');
+      console.log(oranges);
+      
+      // Getting an array of elements by their tag name
+      var items = document.getElementsByTagName('li');
+      console.log(items);
+
+      // Changing the text (inner HTML) of an element
+      gargoyle.innerHTML = 'Look out!<br/>A gargoyle!';
+
+      // You can change attributes of a DOM element
+      // Like here we are changing the 'src' attribute to show a different image
+      var colorImage = document.getElementById('colorImage');
+      colorImage.src = 'images/cookies.jpg'; // changes inner html
+
+      // You can also change the style of elements
+      var pandas = document.getElementById('pandas');
+      pandas.style.color = 'red';
+      pandas.style.background = 'pink';
+      pandas.style.padding = '18px';
+    </script>
+
+  </body>
+</html>

@@ -1,0 +1,23 @@
+<html>
+  <head></head>
+  <body>
+    <p id="gargoyle">I <b>love</b> pandas.</p>
+
+    <script type="text/javascript">
+      // ITP Networked Media, Fall 2014
+      // https://github.com/shiffman/itp-networked-media
+      // These are adapted from https://github.com/lmccart/itp-creative-js
+
+      // Define a function
+      function doSomething() {
+        alert('clicked!');
+      }
+
+      // Grab the element you want to attach the event to
+      var elt = document.getElementById('gargoyle');
+
+      // Attach the function for chosen event
+      elt.addEventListener('click', doSomething);
+    </script>
+  </body>
+</html>
