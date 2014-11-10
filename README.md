@@ -85,14 +85,14 @@ Class will culminate final projects. You are expected to push your abilities to 
 
 1. [Notes: Intro to DOM manipulation and events](https://github.com/lmccart/p5.js/wiki/Intro-to-DOM-manipulation-and-events) - Use JS to manipulate the HTML page and make it react to events (mouse, keyboard, touch, page load). 
   * [Reference for all DOM events](https://developer.mozilla.org/en-US/docs/Web/Events)
-  * [DOM manipulation with no libraries examples](https://github.com/shiffman/itp-networked-media/tree/master/week3/02_dom_pure_js)
+  * [DOM manipulation with no libraries examples](https://github.com/lmccart/itp-networked-media/tree/master/week3/02_dom_pure_js)
 
 2. [Tutorial: p5.dom library](https://github.com/lmccart/p5.js/wiki/Beyond-the-canvas) - You can also use the p5.dom library to handle HTML manipulation and events.
   * [p5.dom.js reference](http://p5js.org/reference/#/libraries/p5.dom)
-  * [p5.dom.js examples](https://github.com/shiffman/itp-networked-media/tree/master/week3/04_dom_p5)
+  * [p5.dom.js examples](https://github.com/lmccart/itp-networked-media/tree/master/week3/04_dom_p5)
 
 3. [JQuery](http://jquery.com/) is (probably the most) popular JS Library for client-side stuff.  We won't use it much in our examples, but it's work examining and thinking about.
-  * [Quick and dirty hello world DOM manipulation with JQuery](https://github.com/shiffman/itp-networked-media/blob/master/week3/03_dom_jquery/sketch.js)
+  * [Quick and dirty hello world DOM manipulation with JQuery](https://github.com/lmccart/itp-networked-media/blob/master/week3/03_dom_jquery/sketch.js)
 
 4. [Notes: Intro to CSS and layouts](https://github.com/lmccart/p5.js/wiki/Intro-to-HTML-and-CSS#css) - Create an external stylesheet and layout an HTML page.
 
