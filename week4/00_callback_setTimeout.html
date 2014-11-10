@@ -1,0 +1,17 @@
+<html>
+  <head></head>
+  <body>
+    <p id="gargoyle">I <b>love</b> pandas.</p>
+
+    <script type="text/javascript">
+
+      function changeText() {
+        var elt = document.getElementById("gargoyle");
+        elt.innerHTML = "Veggie burgers are<br>so tasty."; // changes inner html
+      }
+
+      setTimeout(changeText, 1000); // happens once in 1000 milliseconds
+
+    </script>
+  </body>
+</html>
