@@ -101,8 +101,10 @@ Class will culminate final projects. You are expected to push your abilities to 
 
 ###Week 4 (11/12): APIs, AJAX, JSON
 
-* HTML forms
-* Web services: AJAX and JSON
+* [Web services: AJAX and JSON](https://github.com/lmccart/p5.js/wiki/Loading-external-files:-AJAX,-XML,-JSON)
+
+**[Assignment 4 (DUE 11/19)](https://github.com/lmccart/itp-creative-js/wiki/Assignments#assignment-4-due-1119)**
+
 
 ###Week 5 (11/19): Server-side JS
 
