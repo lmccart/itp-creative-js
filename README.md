@@ -101,7 +101,8 @@ Class will culminate final projects. You are expected to push your abilities to 
 
 ###Week 4 (11/12): APIs, AJAX, JSON
 
-* [Web services: AJAX and JSON](https://github.com/lmccart/p5.js/wiki/Loading-external-files:-AJAX,-XML,-JSON)
+1. [Setting up a servi.js project without the servi IDE](https://github.com/antiboredom/servi.js/wiki/Setting-up-a-servi.js-project-without-the-servi-editor)
+2. [Web services: AJAX and JSON](https://github.com/lmccart/p5.js/wiki/Loading-external-files:-AJAX,-XML,-JSON)
 
 **[Assignment 4 (DUE 11/19)](https://github.com/lmccart/itp-creative-js/wiki/Assignments#assignment-4-due-1119)**
 
