@@ -99,24 +99,22 @@ Class will culminate final projects. You are expected to push your abilities to 
 **[Assignment 3 (DUE 11/12)](https://github.com/lmccart/itp-creative-js/wiki/Assignments#assignment-3-due-1112)**
 
 
-###Week 4 (11/12): APIs, AJAX, JSON
+###Week 4 (11/12): Servi, review
 
 1. [Setting up a servi.js project without the servi IDE](https://github.com/antiboredom/servi.js/wiki/Setting-up-a-servi.js-project-without-the-servi-editor)
-2. [Web services: AJAX and JSON](https://github.com/lmccart/p5.js/wiki/Loading-external-files:-AJAX,-XML,-JSON)
+
 
 **[Assignment 4 (DUE 11/19)](https://github.com/lmccart/itp-creative-js/wiki/Assignments#assignment-4-due-1119)**
 
+###Week 5 (11/19): APIs, AJAX, JSON 
 
-###Week 5 (11/19): Server-side JS
+1. [Web services: AJAX and JSON](https://github.com/lmccart/p5.js/wiki/Loading-external-files:-AJAX,-XML,-JSON)
+
+###Week 6 (12/3): Server-side JS
 
 * Server-side JavaScript writing basic HTTP servers with Servi and Node.js
 * Data storage
 * Query strings, GET vs. POST
-
-###Week 6 (12/3): WebSockets, Arduino
-
-* WebSockets realtime interaction in the browser
-* Serial interfacing with the Arduino 
 
 ###Week 7 (12/10)
 
