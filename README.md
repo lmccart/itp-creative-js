@@ -101,14 +101,16 @@ Class will culminate final projects. You are expected to push your abilities to 
 
 ###Week 4 (11/12): Servi, review
 
-1. [Setting up a servi.js project without the servi IDE](https://github.com/antiboredom/servi.js/wiki/Setting-up-a-servi.js-project-without-the-servi-editor)
-
+1. [Tutorial: setting up a servi.js project without the servi IDE](https://github.com/antiboredom/servi.js/wiki/Setting-up-a-servi.js-project-without-the-servi-editor)
+  * [Servi server example](https://github.com/lmccart/itp-creative-js/tree/master/week4/servi_serve_static)
 
 **[Assignment 4 (DUE 11/19)](https://github.com/lmccart/itp-creative-js/wiki/Assignments#assignment-4-due-1119)**
 
 ###Week 5 (11/19): APIs, AJAX, JSON 
 
-1. [Web services: AJAX and JSON](https://github.com/lmccart/p5.js/wiki/Loading-external-files:-AJAX,-XML,-JSON)
+1. [Notes: Web services, AJAX and JSON](https://github.com/lmccart/p5.js/wiki/Loading-external-files:-AJAX,-XML,-JSON)
+  * [p5.js AJAX examples](https://github.com/lmccart/itp-creative-js/tree/master/week5/01_p5_examples)
+  * [jQuery AJAX examples](https://github.com/lmccart/itp-creative-js/tree/master/week5/02_jquery_examples)
 
 ###Week 6 (12/3): Server-side JS
 
