@@ -111,6 +111,14 @@ Class will culminate final projects. You are expected to push your abilities to 
 1. [Notes: Web services, AJAX and JSON](https://github.com/lmccart/p5.js/wiki/Loading-external-files:-AJAX,-XML,-JSON)
   * [p5.js AJAX examples](https://github.com/lmccart/itp-creative-js/tree/master/week5/01_p5_examples)
   * [jQuery AJAX examples](https://github.com/lmccart/itp-creative-js/tree/master/week5/02_jquery_examples)
+2. [Tutorial: Instagram API how-to](https://github.com/robynitp/networkedmedia/wiki/Instagram-API-How-to)
+3. [Chrome extension for viewing JSON](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc?hl=en)
+4. More resources:
+  * [What is an API?](http://www.lynda.com/HTML-tutorials/What-API/619/61889-4.html) - video on Lynda.com (2m 43sec)
+  * [Using APIs](https://gigaom.com/2010/10/29/using-apis-not-quite-as-hard-as-it-looks/)
+  * [Sunlight Foundation example API](http://training.sunlightfoundation.com/module/unlocking-api/) - an overview of the info available through their API
+
+**[Assignment 5 (DUE 11/12/3)](https://github.com/lmccart/itp-creative-js/wiki/Assignments#assignment-5-due-123)**
 
 ###Week 6 (12/3): Server-side JS
 
