@@ -118,7 +118,7 @@ Class will culminate final projects. You are expected to push your abilities to 
   * [Using APIs](https://gigaom.com/2010/10/29/using-apis-not-quite-as-hard-as-it-looks/)
   * [Sunlight Foundation example API](http://training.sunlightfoundation.com/module/unlocking-api/) - an overview of the info available through their API
 
-**[Assignment 5 (DUE 12/3)](https://github.com/lmccart/itp-creative-js/wiki/Assignments#assignment-5-due-123)**
+**[Final Project (DUE 12/10)](https://github.com/lmccart/itp-creative-js/wiki/Assignments#final-project-due-1210)**
 
 ###Week 6 (12/3): Server-side JS
 
