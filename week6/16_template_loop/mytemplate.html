@@ -1,0 +1,7 @@
+<h1>Where people live</h1>
+<!-- Embed a loop in the template tags -->
+<% for (i = 0; i < people.length; i++) { %>
+
+  <li><%= people[i].name %> lives in <%= people[i].city %></li>
+
+<% } %> <!-- end the for loop -->
