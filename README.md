@@ -126,6 +126,7 @@ Class will culminate final projects. You are expected to push your abilities to 
 2. [Notes: server-side with Servi](https://github.com/robynitp/networkedmedia/wiki/Week-5-Notes)
   * [Servi examples](https://github.com/lmccart/itp-creative-js/tree/master/week6/)
   * [Servi reference](https://github.com/antiboredom/servi.js/wiki)
+  * [Notes: GET and POST request](https://github.com/shiffman/itp-networked-media/wiki/GET,-POST-with-p5)
 
 ###Week 7 (12/10)
 
