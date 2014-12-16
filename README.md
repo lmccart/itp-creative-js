@@ -40,6 +40,11 @@ Class will culminate final projects. You are expected to push your abilities to 
 
 2. Download a code editor like [TextWrangler](http://www.barebones.com/products/textwrangler/) or [Sublime Text](http://www.sublimetext.com/).
 
+3. Running a local server. If you are doing things like loading images, working with webcam, or interfacing with other external files or inputs, you will need to run a local server to view the HTML and JS files you are editing. Here are two methods:
+  * [SimpleHTTPServer](https://github.com/lmccart/itp-creative-js/wiki/SimpleHTTPServer)
+  * [node server with servi.js](https://github.com/antiboredom/servi.js/wiki/Setting-up-a-servi.js-project-without-the-servi-editor) - If you already have a folder with a servi project in it, you can skip to just put your HTML/JS/CSS files in the public/ folder and skip to step 5.
+
+
 **Intro to JS**
 * [Notes: JS basics](https://github.com/lmccart/p5.js/wiki/JavaScript-basics)
 
