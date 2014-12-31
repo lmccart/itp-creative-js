@@ -1,16 +1,10 @@
-var bubbles = [];
-
 function setup() {
 
-	loadJSON('http://api.openweathermap.org/data/2.5/weather?q=NewYork,USA', drawWeather); 
+  loadJSON('http://api.openweathermap.org/data/2.5/weather?q=NewYork,USA', drawWeather); 
 
   createCanvas(600, 400);
   noLoop();
   noStroke();
-
-}
-
-function draw() {
 
 }
 
