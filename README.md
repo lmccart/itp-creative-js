@@ -11,7 +11,7 @@ How do the tools and platforms we work with shape the things we create? How do c
 * [Resident office hours](https://itp.nyu.edu/inwiki/)
 * [Assignments page](https://github.com/lmccart/itp-creative-js/wiki/Assignments)
 
-##Evaluation
+## Evaluation
 
 Grades will be determined according to the following breakdown:
 * Regular Assignments 40%
@@ -29,10 +29,10 @@ This class will be participatory, you are expected to participate in discussions
 Class will culminate final projects. You are expected to push your abilities to produce something that utilizes what you have learned in the class that is useful in some manner to yourself or the world. This will comprise 20% of your grade.
 
 
-##Syllabus
+## Syllabus
 
 
-###Week 1 (10/22): Intro, JavaScript basics, p5.js
+### Week 1 (10/22): Intro, JavaScript basics, p5.js
 
 **Getting started**
 
@@ -63,7 +63,7 @@ Class will culminate final projects. You are expected to push your abilities to 
 **[Assignment 1 (DUE 10/29)](https://github.com/lmccart/itp-creative-js/wiki/Assignments#assignment-1-due-1029)**
 
 
-###Week 2 (10/29): HTML+CSS+JS, servers
+### Week 2 (10/29): HTML+CSS+JS, servers
 
 **Intro to HTML and CSS**
  
@@ -86,7 +86,7 @@ Class will culminate final projects. You are expected to push your abilities to 
 **[Assignment 2 (DUE 11/5)](https://github.com/lmccart/itp-creative-js/wiki/Assignments#assignment-2-due-115)**
 
 
-###Week 3 (11/5): Events and media
+### Week 3 (11/5): Events and media
 
 1. [Notes: Intro to DOM manipulation and events](https://github.com/lmccart/p5.js/wiki/Intro-to-DOM-manipulation-and-events) - Use JS to manipulate the HTML page and make it react to events (mouse, keyboard, touch, page load). 
   * [Reference for all DOM events](https://developer.mozilla.org/en-US/docs/Web/Events)
@@ -104,14 +104,14 @@ Class will culminate final projects. You are expected to push your abilities to 
 **[Assignment 3 (DUE 11/12)](https://github.com/lmccart/itp-creative-js/wiki/Assignments#assignment-3-due-1112)**
 
 
-###Week 4 (11/12): Servi, review
+### Week 4 (11/12): Servi, review
 
 1. [Tutorial: setting up a servi.js project without the servi IDE](https://github.com/antiboredom/servi.js/wiki/Setting-up-a-servi.js-project-without-the-servi-editor)
   * [Servi server example](https://github.com/lmccart/itp-creative-js/tree/master/week4/servi_serve_static)
 
 **[Assignment 4 (DUE 11/19)](https://github.com/lmccart/itp-creative-js/wiki/Assignments#assignment-4-due-1119)**
 
-###Week 5 (11/19): APIs, AJAX, JSON 
+### Week 5 (11/19): APIs, AJAX, JSON 
 
 1. [Notes: Web services, AJAX and JSON](https://github.com/lmccart/p5.js/wiki/Loading-external-files:-AJAX,-XML,-JSON)
   * [p5.js AJAX examples](https://github.com/lmccart/itp-creative-js/tree/master/week5/01_p5_examples)
@@ -125,7 +125,7 @@ Class will culminate final projects. You are expected to push your abilities to 
 
 **[Final Project (DUE 12/10)](https://github.com/lmccart/itp-creative-js/wiki/Assignments#final-project-due-1210)**
 
-###Week 6 (12/3): Server-side JS
+### Week 6 (12/3): Server-side JS
 
 1. [Tutorial: creating a servi server](https://github.com/antiboredom/servi.js/wiki/Setting-up-a-servi.js-project-without-the-servi-editor)
 2. [Notes: server-side with Servi](https://github.com/robynitp/networkedmedia/wiki/Week-5-Notes)
@@ -133,24 +133,24 @@ Class will culminate final projects. You are expected to push your abilities to 
   * [Servi reference](https://github.com/antiboredom/servi.js/wiki)
   * [Notes: GET and POST request](https://github.com/shiffman/itp-networked-media/wiki/GET,-POST-with-p5)
 
-###Week 7 (12/10)
+### Week 7 (12/10)
 
 Final project presentations
 
 
 
-##Resources
+## Resources
 
-###p5.js
+### p5.js
 * [p5.js reference](http://p5js.org/reference)
 * [p5.js forum](http://forum.processing.org/two/)
 * [p5.js on GitHub](https://github.com/lmccart/p5.js)
 * [p5.js CDN](http://cdnjs.com/libraries/p5.js)
 
-###Servi.js
+### Servi.js
 * [servi.js documentation](https://github.com/antiboredom/servi.js/wiki)
 
-###JS Learning / Intro
+### JS Learning / Intro
 * [CodeAcademy: JavaScript](http://www.codecademy.com/tracks/javascript)
 * [How to learn JavaScript properly](http://javascriptissexy.com/how-to-learn-javascript-properly/)
 * [JavaScript the right way](http://www.jstherightway.org/)
@@ -163,7 +163,7 @@ Final project presentations
 * [Beginning JavaScript](http://www.amazon.com/Beginning-JavaScript-Paul-Wilton/dp/0470525932), Paul Wilton and Jeremy McPeak
 * http://www.nyu.edu/lynda - lots of great tutorials here. Log in with your normal nyu net-id/password for full access.
 
-###Tools
+### Tools
 * Checking code: [JSLint](http://www.jslint.com/) / [JSHint](http://www.jshint.com)
 * We'll be using the command line regularly in this class. Nothing too fancy; just the basics. Get familiar, at the very least, with the commands `ls`, `cd`, and `mkdir`. [Basic unix commands](http://www.webmonkey.com/2010/02/learn_enough_unix_for_your_resume/#Basic_Commands).
 * Browser debugging: Chrome Developer Tools ([tutorial](https://developer.chrome.com/extensions/tut_debugging)) / Firebug ([tutorial](http://www.developerfusion.com/article/139949/debugging-javascript-with-firebug/))
