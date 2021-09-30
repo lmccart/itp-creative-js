@@ -5,7 +5,7 @@ var x = [];
 
 function setup() {
 
-  createCanvas(600, 400);
+  createCanvas(800, 500);
   noStroke();
   fill(255, 152, 0);
 
